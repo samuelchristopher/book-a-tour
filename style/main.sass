@@ -34,6 +34,13 @@ h1
 a 
     color: $dark-blue
 
+.tagline
+    color: $grey
+    font-size: .9em
+
+.shifted-to-the-right
+    margin-left: 15px
+
 
 
 // mobile nav
@@ -74,9 +81,7 @@ a
         size: cover
         image: url('assets/big-logo.svg')
 
-.home__tagline
-    color: $grey
-    font-size: .9em
+
 
 .home__input-container
     margin-top: 30px
@@ -165,3 +170,58 @@ footer
     margin-top: 35px
     color: rgba(0,0,0,.5)
     text-align: center
+
+// results
+.results__heading
+    margin-bottom: 5px
+    text-transform: capitalize
+
+
+// tour card
+.tour-card 
+  width: 300px
+  height: 165px
+  position: relative
+  background:
+    color: $light-grey
+
+.tour-card__info-container
+    margin-left: 25px
+    position: absolute
+    z-index: 2
+
+.tour-card__title
+    color: white
+    text-transform: capitalize
+    margin-bottom: 14px
+    font-size: 1.2em
+
+.tour-card__push-down
+    height: 106.5px
+
+.tour-card__bg-blur
+    height: 100%
+    width: 100%
+    position: absolute
+    top: 0
+    z-index: 1
+    background: rgb(0,0,0)
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 31%, rgba(255,255,255,0) 100%)  
+
+.tour-card__learn-more-button
+    text-decoration: none
+    color: black
+    padding: 2.5px 14px
+    text-transform: uppercase
+    margin-top: 10px
+    background:
+        color: white
+
+.tour-card__bg-image
+    width: 300px
+    height: 165px
+    position: absolute
+    top: 0
+
+    
+    
