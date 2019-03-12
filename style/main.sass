@@ -1,17 +1,47 @@
 @import 'base.scss'
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,700')
 
+// variables
+$dark-blue: #2A4F9F
+$grey: #707070
+$yellow: #FBB514
+$light-yellow: #fbb61978
+$light-grey: rgba(0, 0, 0, .2)
+$shadow: 0 3px 6px $light-grey
+$focus-shadow: 0 3px 6px $light-yellow
+$light-dark-blue: rgba($dark-blue, .5)
+
+// common
 html
     font-family: 'Poppins', sans-serif
 
+.mobile-container 
+    max-width: 300px
+    margin: 20px auto
+
+header
+    margin-top: 30px
+
+h1 
+    color: $dark-blue
+    margin-top: 0
+
+.center-button
+    width: 100%
+    display: flex
+    align-items: center
+
+a 
+    color: $dark-blue
+
+
+
 // mobile nav
 .mobile-nav
-    max-width: 375px
     display: flex
     justify-content: space-between
     align-items: center
-    margin: 20px auto
-    
+
 .logo 
     height: 50px
     width: 50px
@@ -28,4 +58,110 @@ html
         position: center center
         repeat: none
         size: cover
-    
+
+
+// home
+
+.home__hero-container
+    display: flex
+    justify-content: space-between
+
+.home__hero-logo
+    width: 150px
+    height: 150px
+    background:
+        position: center center
+        size: cover
+        image: url('assets/big-logo.svg')
+
+.home__tagline
+    color: $grey
+    font-size: .9em
+
+.home__input-container
+    margin-top: 30px
+
+
+// input
+input 
+    border: none
+    border-radius: 8px
+    box-shadow: $shadow
+    padding: 20px 30px
+    margin-bottom: 20px
+    transition: all 50ms ease-in-out
+
+input:focus
+    box-shadow: 0 3px 6px $light-yellow
+    outline: none
+
+::placeholder
+    color: $light-grey
+
+
+// button
+button
+    background-color: $yellow
+    border: none
+    text-transform: uppercase
+    color: white
+    font-size: 1.2em
+    padding: 14px 16px
+    border-radius: 8px
+    box-shadow: $shadow
+    cursor: pointer
+    margin: 15px auto
+
+button:focus
+    outline: none
+    box-shadow: $focus-shadow
+
+
+// footer
+footer
+    margin-top: 65px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.footer__logo
+    height: 64px
+    width: 64px
+    background:
+        position: center center
+        size: cover
+        image: url('assets/logo.png')
+
+.footer__partners-container
+    margin-top: 35px
+    width: 100%
+    display: flex
+    justify-content: space-between
+    font-size: .7em
+
+.footer__partners-heading
+    text-transform: uppercase
+    color: $light-dark-blue
+    font-weight: bold
+    margin: 0
+
+.footer__partners-links-container
+    width: 170px
+
+.partners-links__row
+    display: flex
+    justify-content: space-between
+    margin-bottom: 10px
+
+.footer__general-links
+    font-size: .7em
+    width: 100%
+    display: flex
+    justify-content: space-around
+    margin-top: 25px
+
+.footer__copyright
+    font-size: .5em
+    margin-top: 35px
+    color: rgba(0,0,0,.5)
+    text-align: center
