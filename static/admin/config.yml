@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: system
+  accept_roles: 
+    - admin
+    - editor
+
+media_folder: "static/uploads"
+public_folder: "uploads"
+
+collections:
+  - name: "tours"
+    label: "Tours"
+    folder: "content/tours"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+
+

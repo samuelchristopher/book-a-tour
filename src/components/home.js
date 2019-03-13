@@ -4,7 +4,7 @@ import styles from "./home.module.css"
 export default ({ isDisabled, handleInputChange }) => (
     <header className={styles.home__container}>
         <div className={styles.home__heroContainer}>
-            <h1>Grace <br /> Travel <br /> Agnecy <br /> Tours
+            <h1>Grace <br /> Travel <br /> Agency <br /> Tours
         </h1>
             <div className={styles.home__heroLogo}> </div>
         </div>
