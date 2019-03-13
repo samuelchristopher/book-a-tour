@@ -1,10 +1,15 @@
 import React from "react"
-import Nav from "../components/nav"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
+import Home from "../components/home"
 
-export default () => (
-    <div className="mobile-container">
-      <Nav />
-      <Footer />
-    </div>
-)
+class Index extends React.Component {
+  render() {
+    return (
+      <Layout>
+        <Home />
+      </Layout>
+    )
+  }
+}
+
+export default Index
