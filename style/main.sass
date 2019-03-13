@@ -86,7 +86,6 @@ a
 .home__input-container
     margin-top: 30px
 
-
 // input
 input 
     border: none
@@ -538,6 +537,7 @@ input[type=checkbox]::-ms-check
 .grey-caps
     color: $grey
     text-transform: uppercase
+    cursor: default
 
 .selected-tour-container
     margin-top: 37px
@@ -548,11 +548,31 @@ input[type=checkbox]::-ms-check
 .confirm__advanced
     text-align: center
 
-.date-input
-    width: 221px
-
 .push-down-container
     margin-top: 26px
-    
+
+.container-center-children
+    display: flex
+    flex-direction: column
+    justify-content: center
+
 .push-down-more-container
     margin-top: 76px
+
+
+// thank you    
+.thank-you__tagline
+    font-size: .6em
+    max-width: 120px
+
+.thank-you__logo
+    width: 187px
+    height: 187px
+    background:
+        image: url('assets/big-logo.svg')
+        position: center center
+        size: cover
+    margin-left: 111px
+    margin-top: -64px
+    margin-bottom: 86px
+
