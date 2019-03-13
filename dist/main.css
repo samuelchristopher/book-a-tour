@@ -455,18 +455,22 @@ input:focus {
 
 ::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.2);
+  font-size: .9em;
 }
 
 :-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.2);
+  font-size: .9em;
 }
 
 ::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.2);
+  font-size: .9em;
 }
 
 ::placeholder {
   color: rgba(0, 0, 0, 0.2);
+  font-size: .9em;
 }
 
 button {
@@ -1026,4 +1030,34 @@ input[type=checkbox]::-ms-check {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.back-link {
+  color: rgba(42, 79, 159, 0.5);
+  font-size: .8em;
+}
+
+.grey-caps {
+  color: #707070;
+  text-transform: uppercase;
+}
+
+.selected-tour-container {
+  margin-top: 37px;
+}
+
+.selected-tour__item {
+  margin-bottom: 16px;
+}
+
+.confirm__advanced {
+  text-align: center;
+}
+
+.date-input {
+  width: 221px;
+}
+
+.push-down-container {
+  margin-top: 26px;
 }
