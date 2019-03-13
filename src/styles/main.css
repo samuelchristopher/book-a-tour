@@ -110,10 +110,18 @@ button {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   margin: 15px auto;
+  -webkit-transition: all 50ms ease-in-out;
+  -o-transition: all 50ms ease-in-out;
+  transition: all 50ms ease-in-out;
 }
 
 button:focus {
   outline: none;
   -webkit-box-shadow: 0 3px 6px #fbb61978;
   box-shadow: 0 3px 6px #fbb61978;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  background: #707070;
 }
