@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -703,6 +704,7 @@ footer {
 
 .details__heading {
   color: #2A4F9F;
+  text-transform: capitalize;
 }
 
 .highlights-heading {
@@ -778,4 +780,250 @@ footer {
 
 .itinerary__list-container {
   margin-top: 50px;
+}
+
+.list__expand-all {
+  background: none;
+  color: #707070;
+  text-decoration: underline;
+  font-size: .7em;
+  text-align: right;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.list__icon--dot {
+  background: #2A4F9F;
+  height: 10px;
+  width: 10px;
+  border-radius: 60%;
+  margin-top: 3px;
+}
+
+.list__title {
+  text-transform: capitalize;
+  font-size: 0.8em;
+  -webkit-box-flex: 3;
+  -ms-flex-positive: 3;
+  flex-grow: 3;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.list__expand-arrow {
+  height: 15px;
+  width: 15px;
+  background-image: url("assets/arrow.svg");
+  background-position: center center;
+  background-size: fit;
+  background-repeat: no-repeat;
+}
+
+.list__top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list__description {
+  color: #707070;
+  font-size: .8em;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.included__heading, .not-included__heading {
+  margin-top: 40px;
+}
+
+.list__icon--tick {
+  height: 15px;
+  width: 15px;
+  background-image: url("assets/tick.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -1px;
+}
+
+.list__icon--cross {
+  height: 13px;
+  width: 13px;
+  background-image: url("assets/cross.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.list__item {
+  margin-bottom: 10px;
+}
+
+.details__image-grid {
+  margin-top: 45px;
+  position: relative;
+}
+
+.image-grid__one {
+  margin-top: 15px;
+  height: 156px;
+  width: 234px;
+  position: absolute;
+  left: -40px;
+}
+
+.image-grid__two {
+  height: 128px;
+  width: 141px;
+  position: absolute;
+  right: -35px;
+}
+
+.image-grid__three {
+  height: 95px;
+  width: 141px;
+  margin-top: 128px;
+  position: absolute;
+  right: -35px;
+}
+
+.image-grid__four {
+  height: 63px;
+  width: 85px;
+  margin-left: 109px;
+  margin-top: 171px;
+}
+
+.advanced__heading {
+  margin-top: 35px;
+}
+
+.advanced__options-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 76px;
+  margin-top: 20px;
+}
+
+.advanced-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #707070;
+  font-size: 0.8em;
+}
+
+input[type=checkbox] {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.4em;
+  width: 2.4em;
+  background: white;
+  border: 2px solid #707070;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type=checkbox]::before {
+  content: "✔";
+  font-size: 1.2em;
+  right: 0;
+  top: -0.3em;
+  visibility: hidden;
+  color: #707070;
+}
+
+input[type=checkbox]:checked::before {
+  /* Use `visibility` instead of `display` to avoid recalculating layout */
+  visibility: visible;
+}
+
+input[type=checkbox]::-ms-check {
+  display: none;
+}
+
+.details__live-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.live-price__heading {
+  font-size: 1.1em;
+  text-transform: capitalize;
+  color: #2A4F9F;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.live-price__price {
+  font-weight: 500;
+  font-size: 1.9em;
+  color: #2A4F9F;
+  margin-top: 0;
+}
+
+.live-price__button {
+  width: 145px;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+.live-price-button__icon {
+  height: 30px;
+  width: 30px;
+  background-image: url("assets/right-arrow.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.live-price__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }

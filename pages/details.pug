@@ -38,28 +38,35 @@ header
         .itinerary__list-container.list__expand-container
             .list__expand-all Expand all
             .list__item
-                .list__icon--dot
-                .list__title introduction
-                .list__expand-arrow
-                .list__description 
+                .list__top-section
+                    .list__icon--dot
+                    .list__title introduction
+                    .list__expand-arrow
+                p.list__description.
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
     .details__included-container
-        .details__heading What's Included
+        h3.included__heading.details__heading What's Included
         .list__expand-container
             .list__expand-all Expand all
             .list__item
-                .list__icon--tick
-                .list__title tour coordinator
-                .list__expand-arrow
-                .list__description
+                .list__top-section
+                    .list__icon--tick
+                    .list__title tour coordinator
+                    .list__expand-arrow            
+            .list__item
+                .list__top-section
+                    .list__icon--tick
+                    .list__title transport
+                    .list__expand-arrow            
     .details__not-included-container
-        .details__heading not included
+        h3.not-included__heading.details__heading not included
         .list__expand-container
             .list__expand-all Expand all
             .list__item
-                .list__icon--tick
-                .list__title flights
-                .list__expand-arrow
-                .list__description
+                .list__top-section
+                    .list__icon--cross
+                    .list__title flights
+                    .list__expand-arrow    
     .details__image-grid
         img(src="https://images.unsplash.com/photo-1460968165139-8bbbbb12869c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80").image-grid__one
         img(src="https://images.unsplash.com/photo-1435265603574-177a37a94c2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80").image-grid__two
@@ -67,7 +74,7 @@ header
         img(src="https://images.unsplash.com/photo-1517505964376-f1d72fcd566b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80").image-grid__four
     
     .details__advanced-container
-        .details__heading advanced options
+        h3.advanced__heading.details__heading advanced options
         .advanced__options-container
             .advanced-option
                 input(type="checkbox")
@@ -86,9 +93,10 @@ header
                 .advanced-option__price (variable)
     
     .details__live-price
-        .live-price__heading current total:
-        .live-price__price $99
-        .live-price__button
+        .live-price__price-container
+            h4.live-price__heading current total:
+            h2.live-price__price BND $99
+        button.live-price__button
             .live-price-button__text confirm booking
             .live-price-button__icon
 

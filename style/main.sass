@@ -288,6 +288,7 @@ footer
 
 .details__heading
     color: $dark-blue
+    text-transform: capitalize
 
 .highlights-heading
     margin-top: -21px
@@ -344,3 +345,187 @@ footer
 
 .itinerary__list-container
     margin-top: 50px
+
+.list__expand-all
+    background: none
+    color: $grey
+    text-decoration: underline
+    font-size: .7em
+    text-align: right
+    margin-bottom: 15px
+    cursor: pointer
+
+.list__icon--dot
+    background: $dark-blue
+    height: 10px
+    width: 10px
+    border-radius: 60%
+    margin-top: 3px
+
+.list__title
+    text-transform: capitalize
+    font-size: 0.8em
+    flex-grow: 3
+    margin-left: 10px
+    margin-top: 3px
+
+.list__expand-arrow
+    height: 15px
+    width: 15px
+    background:
+        image: url('assets/arrow.svg')
+        position: center center
+        size: fit
+        repeat: no-repeat
+
+.list__top-section
+    display: flex
+    align-items: center
+    cursor: pointer
+
+.list__description
+    color: $grey
+    font-size: .8em
+    margin-top: 10px
+    margin-left: 20px
+
+.included__heading, .not-included__heading
+    margin-top: 40px   
+
+.list__icon--tick
+    height: 15px
+    width: 15px
+    background:
+        image: url('assets/tick.svg')
+        size: cover
+        repeat: no-repeat
+        position: 0 -1px
+        
+.list__icon--cross
+    height: 13px
+    width: 13px
+    background:
+        image: url('assets/cross.svg')
+        size: contain
+        repeat: no-repeat
+        position: center center
+
+.list__item
+    margin-bottom: 10px
+
+.details__image-grid
+    margin-top: 45px
+    position: relative
+
+.image-grid__one
+    margin-top: 15px
+    height: 156px
+    width: 234px
+    position: absolute
+    left: -40px
+
+.image-grid__two
+    height: 128px
+    width: 141px
+    position: absolute
+    right: -35px
+
+.image-grid__three
+    height: 95px
+    width: 141px
+    margin-top: 128px
+    position: absolute
+    right: -35px
+
+.image-grid__four
+    height: 63px
+    width: 85px
+    margin-left: 109px
+    margin-top: 171px
+
+.advanced__heading
+    margin-top: 35px
+
+.advanced__options-container
+    display: flex;
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    margin-bottom: 76px
+    margin-top: 20px
+
+.advanced-option
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+    text-transform: uppercase
+    color: $grey
+    font-size: 0.8em
+
+input[type=checkbox]
+    box-shadow: none
+    -webkit-appearance: none
+    -moz-appearance: none
+    height: 2.4em
+    width: 2.4em
+    background: white
+    border: 2px solid $grey
+    border-radius: 100%
+    margin-bottom: 10px
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+
+input[type=checkbox]::before 
+  content: "✔"
+  font-size: 1.2em
+  right: 0
+  top: -0.3em
+  visibility: hidden
+  color: $grey
+input[type=checkbox]:checked::before 
+  /* Use `visibility` instead of `display` to avoid recalculating layout */
+  visibility: visible
+
+input[type=checkbox]::-ms-check 
+  display: none
+
+.details__live-price
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+    
+
+.live-price__heading
+    font-size: 1.1em
+    text-transform: capitalize
+    color: $dark-blue
+    margin-bottom: 0
+    margin-top: 30px
+
+.live-price__price
+    font-weight: 500
+    font-size: 1.9em
+    color: $dark-blue
+    margin-top: 0
+
+.live-price__button
+    width: 145px
+    padding-left: 0
+    margin-right: 0
+
+.live-price-button__icon
+    height: 30px
+    width: 30px
+    background:
+        image: url('assets/right-arrow.svg')
+        position: center center
+        size: cover
+
+.live-price__button
+    display: flex
+    align-items: center
