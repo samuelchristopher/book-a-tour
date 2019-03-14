@@ -1,7 +1,7 @@
 ---
 title: full day city tour
 path: /tour/full-day-city-tour
-starts: Bandar Seri Begawan Airport
+starts: Bandar Seri Begawan Airports
 destinations: 9
 ends: Bandar Seri Begawan Airport
 highlights: >-
