@@ -8,13 +8,30 @@ backend:
 media_folder: "static/uploads"
 public_folder: "uploads"
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "tours"
     label: "Tours"
     folder: "content/tours"
     create: true
-    slug: "{{slug}}"
+    slug: "{{title}}"
+    preview_path: "tour/{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Starting location", name: "starts", widget: "string", required: true}
+      - {label: "Number of destinations", name: "destinations", widget: "number", min: 1, max: 101, valueType: "int", required: true}
+      - {label: "Ending location", name: "ends", widget: "string", required: true}
+      - {label: "Highlights paragraph", name: "highlights", widget: "string", required: true}
+      - {label: "Age range minimum", name: "minage", widget: "number", required: true, default: 2, valueType: "int"}
+      - {label: "Group size minimum", name: "mingroup", widget: "number", default: 1, valueType: "int", required: true}
+      - {label: "Travel style", name: "travelstyle", widget: "string", required: true, default: "Cultural Discovery"}
+      - { label: "Itinerary PDF Link", name: "itinerary-url", type: "string", required: true, default: "gracebrunei.com/tours"}
+      - label: "Itinerary" 
+        name: "itinerary"
+        widget: "list"
+        fields: 
+          - {label: Title, name: title, widget: string, default: "Introduction", required: true}
+          - {label: Description, name: desc, widget: string, required: true, default: "A descriptive paragraph goes here"}
 
 
