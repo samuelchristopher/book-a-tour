@@ -1,25 +1,36 @@
-// import React from "react"
-// import { graphql } from "gatsby"
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import Details from "../components/details"
 
-// export default function Template({ data }) {
-//     const { markdownRemark } = data
-//     const { frontmatter, html } = markdownRemark
-//     console.log(frontmatter, html)
-//     return (
-//         <div>
-//             <h1>{frontmatter.title}</h1>
-//         </div>
-//     )
-// }
+export default function Template({ data }) {
+    const { markdownRemark } = data
+    const { frontmatter, html } = markdownRemark
+    const { title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itinerary_url: itineraryUrl } = frontmatter
+    console.log(frontmatter, html)
+    return (
+        <Layout>
+            <Details itineraryUrl={ itineraryUrl } minage={ minage } mingroup={ mingroup } travelstyle={ travelstyle } starts={ starts } title={ title } ends={ ends } destinations={ destinations } highlights={highlights}/>
+        </Layout>
+    )
+}
 
-// export const pageQuery = graphql`
-//     query($path: String!) {
-//         markdownRemark(frontmatter: { slug: { eq: $path } }) {
-//             html
-//             frontmatter {
-//                 path
-//                 title
-//             }
-//         }
-//     }
-// `
+export const pageQuery = graphql`
+    query TourByPath($path: String!) {
+        markdownRemark(frontmatter: { path: { eq: $path } }) {
+            html
+            frontmatter {
+                path
+                title
+                starts
+                ends
+                destinations
+                highlights
+                minage
+                mingroup
+                travelstyle
+                itinerary_url
+            }
+        }
+    }
+`
