@@ -6,11 +6,11 @@ import Details from "../components/details"
 export default function Template({ data }) {
     const { markdownRemark } = data
     const { frontmatter, html } = markdownRemark
-    const { title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itinerary_url: itineraryUrl } = frontmatter
+    const { title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itinerary_url: itineraryUrl, itinerary: itineraryList } = frontmatter
     console.log(frontmatter, html)
     return (
         <Layout>
-            <Details itineraryUrl={ itineraryUrl } minage={ minage } mingroup={ mingroup } travelstyle={ travelstyle } starts={ starts } title={ title } ends={ ends } destinations={ destinations } highlights={highlights}/>
+            <Details itineraryList={itineraryList} itineraryUrl={ itineraryUrl } minage={ minage } mingroup={ mingroup } travelstyle={ travelstyle } starts={ starts } title={ title } ends={ ends } destinations={ destinations } highlights={highlights}/>
         </Layout>
     )
 }
@@ -30,6 +30,10 @@ export const pageQuery = graphql`
                 mingroup
                 travelstyle
                 itinerary_url
+                itinerary {
+                    desc
+                    title
+                }
             }
         }
     }
