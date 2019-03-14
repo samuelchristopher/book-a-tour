@@ -88,3 +88,7 @@
         -ms-transform: rotate(180deg);
             transform: rotate(180deg);
 }
+
+.left-more {
+    margin-left: 25px;
+}

@@ -2,13 +2,19 @@ import React from "react"
 import styles from "./list.module.css"
 import ListItem from "./listItem"
 
-const List = ({ listItems }) => {
-    const ListItems = listItems.map( listItem => {
+const List = ({ listItems, tick, cross }) => {
+    const ListItems = listItems.map( (listItem, key) => {
         let { desc, title } = listItem
-        return <ListItem desc={desc} title={title} />
+        if (tick) {
+            return <ListItem key={key} desc={desc} title={title} tick={true}/>
+        } else if (cross) {
+            return <ListItem key={key} desc={desc} title={title} cross={true} />
+        } else {
+            return <ListItem key={key} desc={desc} title={title} />
+        }
     })
     return (
-        <div className={`${styles.itinerary__listContainer} ${styles.list__expandContainer}`}>
+        <div className={`${styles.list__expandContainer}`}>
             {/* <div className={styles.list__expandAll}>Expand all</div> */}
             { ListItems }
         </div>

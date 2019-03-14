@@ -49,7 +49,17 @@ const Details = ({ title, starts, ends, destinations, highlights, minage, mingro
                 <img className={styles.itinerary__image} src="https://images.unsplash.com/photo-1471973772471-ecd9cf9eb04e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80" />
                 <h3 className={`${styles.itinerary__heading} ${styles.details__heading}`}>Itinerary</h3>
                 <a className={styles.itinerary__download} href={`${itineraryUrl}`} target="__blank">Download PDF Brochure</a>
-                <List listItems={itineraryList}/>
+                <div className={styles.itinerary__listContainer}>
+                    <List listItems={itineraryList} />
+                </div>
+            </div>
+            <div className={styles.details__includedContainer}>
+                <h3 className={`${styles.included__heading} ${styles.details__heading}`}>What's Included</h3>
+                <List listItems={itineraryList} tick={true}/>
+            </div>
+            <div className={styles.details__notIncludedContainer}>
+                <h3 className={`${styles.notIncluded__heading} ${styles.details__heading}`}>not included</h3>
+                <List listItems={itineraryList} cross={true} />
             </div>
         </div>
     )

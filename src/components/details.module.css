@@ -150,7 +150,13 @@
   position: relative;
 }
 
+.itinerary__list-container {
+  margin-top: 50px;
+}
 
+.included__heading, .not-included__heading {
+  margin-top: 40px;
+}
 
 .details__image-grid {
   margin-top: 45px;
