@@ -1,5 +1,6 @@
 ---
 title: full day city tour
+path: /tour/full-day-city-tour
 starts: bandar seri begawan airport
 destinations: 9
 ends: bandar seri begawan airport
