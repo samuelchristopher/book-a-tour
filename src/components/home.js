@@ -15,7 +15,7 @@ export default ({ isDisabled, handleInputChange }) => (
             <input onChange={handleInputChange} type="number" name="days" placeholder="How many days?" />
         </div>
         <div className="center-button">
-            <button disabled={isDisabled} >view tours</button>
+            <button disabled={isDisabled}>view tours</button>
         </div>
     </header>
 )

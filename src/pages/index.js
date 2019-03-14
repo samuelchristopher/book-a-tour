@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Home from "../components/home"
+import Results from "../components/results"
 
 class Index extends React.Component {
   constructor() {
@@ -15,8 +16,6 @@ class Index extends React.Component {
   }
 
   handleInputChange(e) {
-    
-
     let { name, value } = e.target
     this.setState({
       [name]: value
@@ -30,6 +29,7 @@ class Index extends React.Component {
     return (
       <Layout>
         <Home isDisabled={isDisabled} handleInputChange={this.handleInputChange} adults={this.state.adults} children={this.state.children} days={this.state.days}/>
+        <Results days={ days }/>
       </Layout>
     )
   }
