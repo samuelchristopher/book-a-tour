@@ -1,6 +1,6 @@
 ---
-title: Nice brunei tour
-path: /tour/nice-brunei-tour
+title: Brunei Nature Tour
+path: /tour/brunei-nature-tour
 imgone: /uploads/vanessa-bucceri-1381292-unsplash.jpg
 starts: Bandar Seri Begawan
 destinations: 4
