@@ -36,14 +36,7 @@ export const pageQuery = graphql`
                     title
                 }
                 imgone
-                // included {
-                //     desc
-                //     title
-                // }
-                // not_included {
-                //     desc 
-                //     title
-                // }
+                
             }
         }
     }
