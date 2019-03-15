@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 const Results = ({ data }) => {
     return (
         <div>
-            {data.allMarkdownRemark.totalCount}
+            
         </div>
     )
 }

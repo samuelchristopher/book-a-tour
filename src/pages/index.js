@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Home from "../components/home"
 import Results from "../components/results"
+import AllTours from "../components/allTours"
 
 class Index extends React.Component {
   constructor() {
@@ -28,8 +29,9 @@ class Index extends React.Component {
     const isDisabled = !adults || !children || !days
     return (
       <Layout>
-        <Home isDisabled={isDisabled} handleInputChange={this.handleInputChange} adults={this.state.adults} children={this.state.children} days={this.state.days}/>
-        <Results days={ days }/>
+        {/* <Home isDisabled={isDisabled} handleInputChange={this.handleInputChange} adults={this.state.adults} children={this.state.children} days={this.state.days}/> */}
+        {/* <Results days={ days }/> */}
+        <AllTours />
       </Layout>
     )
   }
