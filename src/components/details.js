@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./details.module.css"
 import List from "./list"
 
-const Details = ({ title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itineraryUrl, itineraryList, imgone }) => {
+const Details = ({ title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itineraryUrl, itineraryList, imgone, included, notIncluded }) => {
     return (
         <div>
             <header>
@@ -55,11 +55,11 @@ const Details = ({ title, starts, ends, destinations, highlights, minage, mingro
             </div>
             <div className={styles.details__includedContainer}>
                 <h3 className={`${styles.included__heading} ${styles.details__heading}`}>What's Included</h3>
-                <List listItems={itineraryList} tick={true}/>
+                <List listItems={included} tick={true}/>
             </div>
             <div className={styles.details__notIncludedContainer}>
                 <h3 className={`${styles.notIncluded__heading} ${styles.details__heading}`}>not included</h3>
-                <List listItems={itineraryList} cross={true} />
+                <List listItems={notIncluded} cross={true} />
             </div>
         </div>
     )
