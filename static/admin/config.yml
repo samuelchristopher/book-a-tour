@@ -28,12 +28,25 @@ collections:
       - {label: "Age range minimum", name: "minage", widget: "number", required: true, default: 2, valueType: "int"}
       - {label: "Group size minimum", name: "mingroup", widget: "number", default: 1, valueType: "int", required: true}
       - {label: "Travel style", name: "travelstyle", widget: "string", required: true, default: "Cultural Discovery"}
-      - { label: "Itinerary PDF Link", name: "itinerary-url", type: "string", required: true, default: "gracebrunei.com/tours"}
+      - { label: "Itinerary PDF Link", name: "itinerary-url", type: "string", required: true, default: "http://www.gracebrunei.com/tours"}
       - label: "Itinerary" 
         name: "itinerary"
         widget: "list"
         fields: 
           - {label: Title, name: title, widget: string, default: "Introduction", required: true}
           - {label: Description, name: desc, widget: string, required: true, default: "A descriptive paragraph goes here"}
+      - label: "What's Included" 
+        name: "inlcuded"
+        widget: "list"
+        fields: 
+          - {label: Title, name: title, widget: string, default: "Tour Coordinator", required: true}
+          - {label: Description, name: desc, widget: string, required: true, default: "A descriptive paragraph about tour coordinator goes here"}
+      - label: "Not Included" 
+        name: "not_included"
+        widget: "list"
+        fields: 
+          - {label: Title, name: title, widget: string, default: "Flights", required: true}
+          - {label: Description, name: desc, widget: string, required: true, default: "A descriptive paragraph about how flights are not included goes here"}
+      - { label: "Starting price", name: "price", type: "number", required: true, default: "99"}
 
 

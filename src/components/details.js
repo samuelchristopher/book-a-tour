@@ -2,14 +2,14 @@ import React from "react"
 import styles from "./details.module.css"
 import List from "./list"
 
-const Details = ({ title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itineraryUrl, itineraryList }) => {
+const Details = ({ title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itineraryUrl, itineraryList, imgone }) => {
     return (
         <div>
             <header>
                 <h1 className="capitalize__heading">{ title }</h1>
                 <p className={`${styles.detailsTagline} shifted-to-the-right tagline`}>3 Adults, 2 Children, 1 Day</p>
             </header>
-            <img className={styles.details__bigImage} src="https://images.unsplash.com/photo-1491905420573-0d1bdfd6436a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=889&amp;q=80" />
+            <img className={styles.details__bigImage} src={imgone} />
             <div className={styles.details__dotsContainer}>
                 <div className={styles.dots__titles}>
                     <div className="yellow-caps">starts</div>

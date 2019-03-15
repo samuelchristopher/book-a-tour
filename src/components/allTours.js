@@ -13,6 +13,7 @@ const allTours = () => {
                                 frontmatter {
                                     title
                                     path
+                                    imgone
                                 }
                             }
                         }
