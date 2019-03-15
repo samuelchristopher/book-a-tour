@@ -1,10 +1,10 @@
 ---
-title: Nice brunei tour
-path: /tour/nice-brunei-tour
+title: Brunei Nature Tour
+path: /tour/brunei-nature-tour
 imgone: /uploads/vanessa-bucceri-1381292-unsplash.jpg
-starts: Bandar Seri Begawan
+starts: Bandar Seri Begawan Airport
 destinations: 4
-ends: Singapore
+ends: Bandar Seri Begawan Airport
 highlights: >-
   Brunei is a tiny nation on the island of Borneo, in 2 distinct sections
   surrounded by Malaysia and the South China Sea. It's known for its beaches and
