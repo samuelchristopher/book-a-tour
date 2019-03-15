@@ -20,6 +20,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Path", name: "path", widget: "string", required: true, default: "/tour/"}
+      - {label: "Featured image", name: "imgone", widget: "image", required: true}
       - {label: "Starting location", name: "starts", widget: "string", required: true}
       - {label: "Number of destinations", name: "destinations", widget: "number", min: 1, max: 101, valueType: "int", required: true}
       - {label: "Ending location", name: "ends", widget: "string", required: true}
