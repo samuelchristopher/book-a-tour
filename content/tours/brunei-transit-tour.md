@@ -1,6 +1,6 @@
 ---
 title: Brunei Transit Tour
-path: '/tour/{{title}}'
+path: /tour/brunei-transit-tour
 imgone: /uploads/pawel-czerwinski-1440120-unsplash.jpg
 starts: Bandar Seri Begawan Airport
 destinations: 6
