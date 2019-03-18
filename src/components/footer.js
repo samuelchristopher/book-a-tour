@@ -6,8 +6,7 @@ const Footer = () => (
     {/* <div className={styles.footer__logo} /> */}
     <div className={styles.footer__partnersContainer}>
       <p className={styles.footer__partnersHeading}>
-        grace travel <br />
-        agency partners
+        grace travel partners
       </p>
       <div className={styles.footer__partnersLinksContainer}>
         <div className={styles.partnersLinks__row}>
