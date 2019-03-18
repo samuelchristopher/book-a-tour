@@ -1,6 +1,6 @@
 ---
 title: Temburong Eco-Village
-path: /tour/
+path: /tour/temburong-eco-village
 imgone: /uploads/sergio-souza-1386770-unsplash.jpg
 starts: Hotel
 destinations: 12
