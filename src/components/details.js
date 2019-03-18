@@ -29,7 +29,6 @@ const Details = ({ title, starts, ends, destinations, highlights, minage, mingro
                 </div>
             </div> */}
             <div className={styles.details__highlightsContainer}>
-                <img className={styles.highlights__image} src={imgtwo} />
                 <h3 className={`${styles.highlightsHeading} ${styles.details__heading}`}>Highlights</h3>
                 <p className={styles.highlights__p}>{ highlights }</p>
                 <div className={styles.highlights__infoContainer}>
@@ -45,10 +44,16 @@ const Details = ({ title, starts, ends, destinations, highlights, minage, mingro
                     </div>
                 </div>
             </div>
+            {/* <img className={styles.highlights__image} src={imgtwo} /> */}
+            <img className={styles.details__bigImage} src={imgtwo} />
             <div className={styles.details__itineraryContainer}>
-                <img className={styles.itinerary__image} src={imgthree} />
-                <h3 className={`${styles.itinerary__heading} ${styles.details__heading}`}>Itinerary</h3>
-                <a className={styles.itinerary__download} href={`${itineraryUrl}`} target="__blank">Download PDF Brochure</a>
+                {/* <img className={styles.itinerary__image} src={imgthree} /> */}
+                <div className={styles.itinerary__headingContainer}>
+                    <h3 className={`${styles.itinerary__heading} ${styles.details__heading}`}>Itinerary</h3>
+                    <div>
+                        <a className={styles.itinerary__download} href={`${itineraryUrl}`} target="__blank">Download PDF Brochure</a>
+                    </div>
+                </div>
                 <div className={styles.itinerary__listContainer}>
                     <List listItems={itineraryList} />
                 </div>
