@@ -10,7 +10,7 @@ const Details = ({ title, starts, ends, destinations, highlights, minage, mingro
                 <p className={`${styles.detailsTagline} shifted-to-the-right tagline`}>3 Adults, 2 Children, 1 Day</p>
             </header>
             <img className={styles.details__bigImage} src={imgone} />
-            <div className={styles.details__dotsContainer}>
+            {/* <div className={styles.details__dotsContainer}>
                 <div className={styles.dots__titles}>
                     <div className="yellow-caps">starts</div>
                     <div className="yellow-caps">destinations</div>
@@ -27,7 +27,7 @@ const Details = ({ title, starts, ends, destinations, highlights, minage, mingro
                     <div className={styles.dots__info}>+{ destinations }</div>
                     <div className={styles.dots__info}>{ ends }</div>
                 </div>
-            </div>
+            </div> */}
             <div className={styles.details__highlightsContainer}>
                 <img className={styles.highlights__image} src={imgtwo} />
                 <h3 className={`${styles.highlightsHeading} ${styles.details__heading}`}>Highlights</h3>
@@ -61,10 +61,10 @@ const Details = ({ title, starts, ends, destinations, highlights, minage, mingro
                 <h3 className={`${styles.notIncluded__heading} ${styles.details__heading}`}>not included</h3>
                 <List listItems={notIncluded} cross={true} />
             </div>
-            <div class={styles.details__live-price}>
-                <div class={styles.livePrice__priceContainer}>
-                    <h4 class={styles.livePrice__heading}>Starting from:</h4>
-                    <h2 class={styles.livePrice__price}>BND ${ price }</h2>
+            <div className={styles.details__livePrice}>
+                <div className={styles.livePrice__priceContainer}>
+                    <h4 className={styles.livePrice__heading}>Starting from:</h4>
+                    <h2 className={styles.livePrice__price}>BND ${ price }</h2>
                 </div>
             </div>
         </div>

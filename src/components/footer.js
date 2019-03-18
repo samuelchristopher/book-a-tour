@@ -3,7 +3,7 @@ import styles from "./footer.module.css"
 
 const Footer = () => (
   <footer>
-    <div className={styles.footer__logo} />
+    {/* <div className={styles.footer__logo} /> */}
     <div className={styles.footer__partnersContainer}>
       <p className={styles.footer__partnersHeading}>
         grace travel <br />

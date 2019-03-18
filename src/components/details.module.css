@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.details__highlights-container {
+  margin-top: 290px;
+}
+
 .details-tagline {
   margin-bottom: 20px;
 }
@@ -87,6 +91,7 @@
 .highlights__p {
   font-size: .8em;
   color: #707070;
+  text-align: justify;
 }
 
 .highlights__info-content {
