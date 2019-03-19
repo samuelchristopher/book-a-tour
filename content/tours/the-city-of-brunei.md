@@ -22,8 +22,10 @@ itinerary:
   - desc: A descriptive paragraph goes here
     title: Introduction
 included:
-  - desc: A descriptive paragraph about tour coordinator goes here
+  - desc: Ziq is the best tour coordinator
     title: Tour Coordinator
+  - desc: 2 breakfast
+    title: Meals
 not_included:
   - desc: A descriptive paragraph about how flights are not included goes here
     title: Flights
