@@ -51,6 +51,6 @@ included:
   - desc: Mineral Water/Light refreshments will be provided
     title: 'Refreshments '
 not_included: []
-price: B$49
+price: '49'
 ---
 
