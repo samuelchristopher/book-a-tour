@@ -44,6 +44,6 @@ included:
 not_included:
   - desc: Traveling Insurance not provided
     title: Insurance
-price: B$190
+price: '190'
 ---
 
