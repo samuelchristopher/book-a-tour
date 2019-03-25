@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import Home from "../components/home"
-import Results from "../components/results"
+// import Home from "../components/home"
+// import Results from "../components/results"
 import AllTours from "../components/allTours"
 import { Helmet } from "react-helmet"
 

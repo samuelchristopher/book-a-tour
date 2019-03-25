@@ -1,0 +1,15 @@
+.thank-you__tagline {
+  font-size: .6em;
+  max-width: 120px;
+}
+
+.thank-you__logo {
+  width: 187px;
+  height: 187px;
+  background-image: url(../assets/big-logo.svg);
+  background-position: center center;
+  background-size: cover;
+  margin-left: 111px;
+  margin-top: -64px;
+  margin-bottom: 86px;
+}
