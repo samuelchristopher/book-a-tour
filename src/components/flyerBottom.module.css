@@ -1,0 +1,23 @@
+ .button {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    background: #364893;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #364893;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}

@@ -30,7 +30,7 @@ p {
 }
 
 .price__container {
-    background: black;
+    background: #364893;
     color: white;
     padding: 20px 20px;
     margin-top: 20px;
@@ -46,5 +46,20 @@ p {
 
 .flyer__title {
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #87cfec;
+    font-size: 40px;
+}
+
+.price__from {
+    text-transform: uppercase;
+}
+
+.arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 40px solid #364893;
+  margin: 0 auto;
 }

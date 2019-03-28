@@ -6,6 +6,7 @@ import FlyerTop from "../components/flyerTop"
 import FlyerHeader from "../components/flyerHeader"
 import FlyerQuickInfo from  "../components/flyerQuickInfo"
 import FlyerBlocks from "../components/flyerBlocks"
+import FlyerBottom from "../components/flyerBottom"
 
 export default function Template({
     data,
@@ -19,6 +20,7 @@ export default function Template({
             <FlyerHeader {...frontmatter}/>
             <FlyerQuickInfo {...frontmatter}/>
             <FlyerBlocks {...frontmatter}/>
+            <FlyerBottom />
         </div>
     )
 }

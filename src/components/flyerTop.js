@@ -19,11 +19,15 @@ const flyerTop = ({ price, pricedesc, title }) => {
                 </p>
                 <p>Web: www.gracebrunei.com</p>
             </div>
-            <div className={styles.price__container}>
-                <div className={styles.price__text}>${price}</div>
-                <div className={styles.price__descContainer}>
-                    { priceDescItems }
+            <div>
+                <div className={styles.price__container}>
+                    <div className={styles.price__from}>from</div>
+                    <div className={styles.price__text}>B${price}</div>
+                    <div className={styles.price__descContainer}>
+                        { priceDescItems }
+                    </div>
                 </div>
+                <div className={styles.arrow}></div>
             </div>
         </div>
         <h1 className={styles.flyer__title}>{ title }</h1>

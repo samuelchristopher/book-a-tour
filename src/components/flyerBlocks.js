@@ -6,7 +6,7 @@ import Block from './block'
 const flyerBlocks = ({ blocks }) => {
     let allBlocks = Object.keys(blocks).map((itemKey, key) => {
         let blockItem = blocks[itemKey]
-        return <Block data={blockItem} />
+        return <Block data={blockItem} key={key}/>
     })
     return (
         <div className={styles.blocks__container}>
