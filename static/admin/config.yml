@@ -17,7 +17,10 @@ collections:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Path", name: "path", widget: "string", required: true, default: "/flyer/"}
       - {label: "Price", name: "price", widget: "number", required: true}
-      - {label: "Price Description", name: "pricedesc", widget: "string", required: true}
+      - label: "Price Description"
+        name: "pricedesc"
+        widget: "list"
+        default: ["per person", "min 2 to go"]
       - {label: "Header Image", name: "headerimg", widget: "image", required: true}
       - {label: "Header Title", name: "headertitle", widget: "string", required: true}
       - {label: "Header Description", name: "headerdesc", widget: "string", required: true}
@@ -28,5 +31,13 @@ collections:
         fields: 
           - {label: Text, name: text, widget: string, default: "tour guide included"}
           - {label: Icon, name: icon, widget: image}
+      - label: "Blocks"
+        name: "blocks"
+        widget: "list"
+        fields: 
+          - label: "Block"
+            name: "block"
+            widget: "list"
+            default: ["item 1", "item 2"]
 
 
