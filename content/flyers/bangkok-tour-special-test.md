@@ -22,6 +22,8 @@ quickinfo:
     text: 3 hours
   - icon: /uploads/round-restaurant-24px.svg
     text: light snack included
+  - icon: /uploads/round-directions_bus-24px.svg
+    text: transfers included
 blocks:
   - blockitems:
       - pick up from airport
