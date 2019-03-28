@@ -35,8 +35,9 @@ collections:
         name: "blocks"
         widget: "list"
         fields: 
-          - label: "Block"
-            name: "block"
+          - {label: Title, name: title, widget: string, default: "Block title"}
+          - label: "Block Items"
+            name: "blockitems"
             widget: "list"
             default: ["item 1", "item 2"]
 
