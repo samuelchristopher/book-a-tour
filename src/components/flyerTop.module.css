@@ -49,6 +49,7 @@ p {
     text-transform: uppercase;
     color: #87cfec;
     font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .price__from {
@@ -62,4 +63,13 @@ p {
   border-right: 60px solid transparent;
   border-top: 40px solid #364893;
   margin: 0 auto;
+}
+
+.tourcode {
+   text-transform: uppercase;
+   color: black;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 0;
+   font-weight: bold; 
 }

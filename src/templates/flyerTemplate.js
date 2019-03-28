@@ -30,6 +30,7 @@ export const pageQuery = graphql`
            markdownRemark(frontmatter: { path: { eq: $path } }) {
              frontmatter {
                title
+               titledays
                path
                price
                pricedesc

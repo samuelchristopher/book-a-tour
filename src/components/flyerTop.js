@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./flyerTop.module.css"
 
-const flyerTop = ({ price, pricedesc, title }) => {
+const flyerTop = ({ price, pricedesc, title, tourcode, titledays }) => {
     let priceDescItems = Object.keys(pricedesc).map((id, key) => {
         let itemText = pricedesc[id]
         return <div className={styles.pricedesc} key={key}>{itemText}</div>
@@ -30,7 +30,8 @@ const flyerTop = ({ price, pricedesc, title }) => {
                 <div className={styles.arrow}></div>
             </div>
         </div>
-        <h1 className={styles.flyer__title}>{ title }</h1>
+        <h1 className={styles.flyer__title}>{ title } ({ titledays })</h1>
+        <p className={styles.tourcode}>tour code: { tourcode }</p>
       </div>
     )
 }

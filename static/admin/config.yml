@@ -15,6 +15,7 @@ collections:
     preview_path: "flyer/{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Title Days", name: "titledays", widget: "string", required: true}
       - {label: "Path", name: "path", widget: "string", required: true, default: "/flyer/"}
       - {label: "Price", name: "price", widget: "number", required: true}
       - label: "Price Description"

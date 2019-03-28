@@ -1,5 +1,6 @@
 ---
 title: bangkok tour special test
+titledays: 3d/2n
 path: /flyer/bangkok-tour-special-test
 price: 49
 pricedesc:
