@@ -18,7 +18,7 @@ class Index extends React.Component {
           <meta charSet="utf-8" />
           <title>Tours | Grace Travel</title>
         </Helmet>
-        <h1>hello</h1>
+        <h1>hello again</h1>
       </div>
     )
   }
