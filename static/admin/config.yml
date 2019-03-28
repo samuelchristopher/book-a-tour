@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: flyer
+  branch: flyer-updated
 
 media_folder: "static/uploads"
 public_folder: "uploads"
