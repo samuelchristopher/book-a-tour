@@ -18,10 +18,10 @@ headerdesc: >-
   some with views of Pattaya Bay. 
 tourcode: GTABKK19-01
 quickinfo:
-  - icon: /uploads/round-flag-24px.svg
-    text: tour guide included
   - icon: /uploads/round-hotel-24px.svg
     text: 'accommodations included '
+  - icon: /uploads/round-flag-24px.svg
+    text: tour guide included
   - icon: /uploads/round-directions_bus-24px.svg
     text: transfers included
   - icon: /uploads/round-restaurant-24px.svg
