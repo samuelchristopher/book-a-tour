@@ -16,7 +16,7 @@ class Index extends React.Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Tours | Grace Travel</title>
+          <title>Flyers | Grace Travel</title>
         </Helmet>
         <h1>hello again</h1>
       </div>

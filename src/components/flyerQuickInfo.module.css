@@ -1,0 +1,23 @@
+.quickinfo__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quickinfo__item-icon {
+    height: 40px;
+    width: 40px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.quickinfo__item {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+}

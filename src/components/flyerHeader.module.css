@@ -1,0 +1,33 @@
+.header__container {
+    padding: 40px 20px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid white;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header__content-container {
+    width: 50%;
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.header__desc {
+    font-size: 15px;
+}

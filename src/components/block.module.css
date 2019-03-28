@@ -1,0 +1,26 @@
+.blocks__container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.block {
+    display: grid;
+    padding: 20px 40px;
+}
+
+.block:nth-child(2n+3) {
+    background: black;
+    color: white;
+}
+
+.block__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.block__item {
+    font-size: .8em;
+}

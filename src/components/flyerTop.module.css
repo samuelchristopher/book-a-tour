@@ -1,0 +1,50 @@
+.top__container {
+    margin: 20px 40px;
+}
+.letterhead__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.letterhead__address {
+    text-transform: capitalize;
+}
+
+.letterhead__logo {
+    background-image: url(../assets/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.letterhead__company-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    margin: .5em;
+    font-size: .7em;
+}
+
+.price__container {
+    background: black;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.price__text {
+    font-size: 60px;
+}
+
+.pricedesc {
+    text-transform: uppercase;
+}
+
+.flyer__title {
+    text-align: center;
+    text-transform: capitalize;
+}
