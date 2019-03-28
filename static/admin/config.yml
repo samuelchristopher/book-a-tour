@@ -14,10 +14,10 @@ collections:
     slug: "{{title}}"
     preview_path: "flyer/{{title}}"
     fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Path", name: "path", widget: "string", required: true, default: "/flyer/"}
       - {label: "Price", name: "price", widget: "number", required: true}
       - {label: "Price Description", name: "pricedesc", widget: "string", required: true}
-      - {label: "Flyer Title", name: "flyertitle", widget: "string", required: true}
       - {label: "Header Image", name: "headerimg", widget: "image", required: true}
       - {label: "Header Title", name: "headertitle", widget: "string", required: true}
       - {label: "Header Description", name: "headerdesc", widget: "string", required: true}
