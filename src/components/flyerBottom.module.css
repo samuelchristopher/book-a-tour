@@ -21,3 +21,9 @@
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
 }
+
+.button__container {
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+}
