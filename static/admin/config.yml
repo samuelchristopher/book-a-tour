@@ -1,54 +1,32 @@
 backend:
   name: git-gateway
-  branch: system
-  accept_roles: 
-    - admin
-    - editor
+  branch: flyer
 
 media_folder: "static/uploads"
 public_folder: "uploads"
 
-publish_mode: editorial_workflow
 
 collections:
-  - name: "tours"
-    label: "Tours"
-    folder: "content/tours"
+  - name: "flyer"
+    label: "Flyer"
+    folder: "content/flyers"
     create: true
     slug: "{{title}}"
-    preview_path: "tour/{{title}}"
+    preview_path: "flyer/{{title}}"
     fields:
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Path", name: "path", widget: "string", required: true, default: "/tour/"}
-      - {label: "Featured image", name: "imgone", widget: "image", required: true}
-      - {label: "Starting location", name: "starts", widget: "string", required: true}
-      - {label: "Number of destinations", name: "destinations", widget: "number", min: 1, max: 101, valueType: "int", required: true}
-      - {label: "Ending location", name: "ends", widget: "string", required: true}
-      - {label: "Highlights paragraph", name: "highlights", widget: "string", required: true}
-      - {label: "Highlights image", name: "imgtwo", widget: "image", required: true}
-      - {label: "Age range minimum", name: "minage", widget: "number", required: true, default: 2, valueType: "int"}
-      - {label: "Group size minimum", name: "mingroup", widget: "number", default: 1, valueType: "int", required: true}
-      - {label: "Travel style", name: "travelstyle", widget: "string", required: true, default: "Cultural Discovery"}
-      - {label: "Itinerary image", name: "imgthree", widget: "image", required: true}
-      - { label: "Itinerary PDF Link", name: "itinerary-url", type: "string", required: true, default: "http://www.gracebrunei.com/tours"}
-      - label: "Itinerary" 
-        name: "itinerary"
+      - {label: "Path", name: "path", widget: "string", required: true, default: "/flyer/"}
+      - {label: "Price", name: "price", widget: "number", required: true}
+      - {label: "Price Description", name: "pricedesc", widget: "string", required: true}
+      - {label: "Flyer Title", name: "flyertitle", widget: "string", required: true}
+      - {label: "Header Image", name: "headerimg", widget: "image", required: true}
+      - {label: "Header Title", name: "headertitle", widget: "string", required: true}
+      - {label: "Header Description", name: "headerdesc", widget: "string", required: true}
+      - {label: "Tour Code", name: "tourcode", widget: "string", required: true}
+      - label: "Quick Info" 
+        name: "quickinfo"
         widget: "list"
         fields: 
-          - {label: Title, name: title, widget: string, default: "Introduction", required: true}
-          - {label: Description, name: desc, widget: string, required: true, default: "A descriptive paragraph goes here"}
-      - label: "What's Included" 
-        name: "included"
-        widget: "list"
-        fields: 
-          - {label: Title, name: title, widget: string, default: "Tour Coordinator", required: true}
-          - {label: Description, name: desc, widget: string, required: true, default: "A descriptive paragraph about tour coordinator goes here"}
-      - label: "Not Included" 
-        name: "not_included"
-        widget: "list"
-        fields: 
-          - {label: Title, name: title, widget: string, default: "Flights", required: true}
-          - {label: Description, name: desc, widget: string, required: true, default: "A descriptive paragraph about how flights are not included goes here"}
-      - { label: "Starting price", name: "price", type: "number", required: true, default: "99"}
+          - {label: Text, name: text, widget: string, default: "tour guide included"}
+          - {label: Icon, name: icon, widget: image}
 
 

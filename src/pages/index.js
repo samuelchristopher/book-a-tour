@@ -36,7 +36,7 @@ class Index extends React.Component {
         </Helmet>
         {/* <Home isDisabled={isDisabled} handleInputChange={this.handleInputChange} adults={this.state.adults} children={this.state.children} days={this.state.days}/> */}
         {/* <Results days={ days }/> */}
-        <AllTours />
+        {/* <AllTours /> */}
       </Layout>
     )
   }
