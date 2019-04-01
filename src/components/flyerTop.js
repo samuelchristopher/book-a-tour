@@ -13,11 +13,11 @@ const flyerTop = ({ price, pricedesc, title, tourcode, titledays }) => {
             <div className={styles.letterhead__content}>
                 <p className={styles.letterhead__companyName}>grace travel agency</p>
                 <p className={styles.letterhead__address}>unit 3 & 4, Wong Siew Sing Building, Spg. 5, Jalan Gadong</p>
-                <p className={styles.letterhead__address}>unit 3 & 4, Wong Siew Sing Building, Spg. 5, Jalan Gadong</p>
+                <p className={styles.letterhead__address}>Bandar Seri Begawan BE4119, Brunei Darussalam</p>
                 <p>
-                    Tel: {"+673-2424219"} Fax: {"+673-2424241"}
+                    Tel: {"+673 242424 / +673 2420555"} Fax: {"+673 2424219"}
                 </p>
-                <p>Web: www.gracebrunei.com</p>
+                <p>Website: www.gracebrunei.com</p>
             </div>
             <div>
                 <div className={styles.price__container}>
