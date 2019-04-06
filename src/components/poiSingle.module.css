@@ -1,0 +1,30 @@
+.page-header {
+    color: #364893;
+    margin: 20px 40px;
+}
+
+.poi-single-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.poi-title {
+    text-transform: capitalize;
+}
+
+.poi-image {
+    width: 600px;
+    height: 110px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.poi-content {
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+.poi-container {
+    margin: 20px 40px;
+}

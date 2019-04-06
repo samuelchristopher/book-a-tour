@@ -8,6 +8,8 @@ import FlyerQuickInfo from  "../components/flyerQuickInfo"
 import FlyerBlocks from "../components/flyerBlocks"
 import FlyerBottom from "../components/flyerBottom"
 
+import POI from "../components/poiRender"
+
 export default function Template({
     data,
 }) {
@@ -15,12 +17,15 @@ export default function Template({
     const { frontmatter } = markdownRemark
     
     return (
-        <div {...frontmatter}>
-            <FlyerTop {...frontmatter}/>
-            <FlyerHeader {...frontmatter}/>
-            <FlyerQuickInfo {...frontmatter}/>
-            <FlyerBlocks {...frontmatter}/>
-            <FlyerBottom />
+        <div>
+            <div className="page">
+              <FlyerTop {...frontmatter}/>
+              <FlyerHeader {...frontmatter}/>
+              <FlyerQuickInfo {...frontmatter}/>
+              <FlyerBlocks {...frontmatter}/>
+              <FlyerBottom />
+            </div>
+            <POI {...frontmatter}/>
         </div>
     )
 }
@@ -45,6 +50,11 @@ export const pageQuery = graphql`
                blocks {
                  title
                  blockitems
+               }
+               poi {
+                 desc
+                 image
+                 title
                }
              }
            }
