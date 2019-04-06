@@ -41,5 +41,12 @@ collections:
             name: "blockitems"
             widget: "list"
             default: ["item 1", "item 2"]
+      - label: "Places of Interest" 
+        name: "poi"
+        widget: "list"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: desc, widget: string}
+          - {label: Image, name: image, widget: image}
 
 
