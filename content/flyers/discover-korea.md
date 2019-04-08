@@ -43,15 +43,31 @@ itinerary:
         notbold: Overnight in Bangkok
     mealsincluded: Dinner
   - daynumber: 2
-    daytitle: North Korea - Auditorium
+    daytitle: Floating Market - Shopping Tour
     item:
-      - bold: Army
-        notbold: Visit
-      - bold: Korean National Park
-        notbold: Go to
       - bold: '-'
-        notbold: Meet Sam here
-    mealsincluded: None
+        notbold: Breakfast at hotel’s restaurant
+      - bold: Damnoen Saduak Floating Market
+        notbold: Visit
+      - bold: ' Railway Market'
+        notbold: Visit
+      - bold: Ziniza Restaurant
+        notbold: Lunch at
+      - bold: >-
+          Chatuchak Weekend Market (Saturday and Sunday Only) or JJ Mall or
+          Platinum 
+        notbold: Free shopping at
+      - bold: Fashion Mall or Terminal 21 or Train Market
+        notbold: Visit
+      - bold: Sophia Restaurant
+        notbold: Dinner at
+      - bold: >-
+          Nanta Show Bangkok Theatre, Siam Niramat Bangkok Show or Chao Phraya
+          Cruise
+        notbold: 'Optional Tour:'
+      - bold: '-'
+        notbold: Overnight in Bangkok
+    mealsincluded: 'Breakfast, Lunch, Dinner'
 poi:
   - desc: >-
       Korea is a region in East Asia. Since 1948, it has been divided between
