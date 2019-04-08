@@ -46,7 +46,7 @@ poi:
   - desc: >-
       A 40 metre tall waterfall that creates a rainbow as it splashes into the
       lake, widely regarded as the most scenic in all of Taiwan. 
-    image: /uploads/pawel-czerwinski-1440120-unsplash.jpg
+    image: /uploads/shifen-waterfall-old-town-1-of-1-15-copy.jpg
     title: 'Shifen Waterfall '
   - desc: >-
       Built by the Japanese during a Gold Rush frenzy, the village started its
