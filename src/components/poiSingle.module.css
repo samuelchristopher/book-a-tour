@@ -28,3 +28,8 @@
 .poi-container {
     margin: 20px 40px;
 }
+
+.space-top {
+    height: 20px;
+    width: 100%;
+}
