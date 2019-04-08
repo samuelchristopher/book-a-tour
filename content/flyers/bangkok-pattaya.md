@@ -37,11 +37,21 @@ blocks:
     title: Inclusions
 itinerary:
   - daynumber: '1'
-    daytitle: Arrival - Brunei
+    daytitle: Arrival - Bangkok
     item:
-      - bold: Bandar Seri Begawan
-        notbold: Visit
-    mealsincluded: 'Breakfast, Lunch and Dinner'
+      - bold: Suvarnabhumi International Airport
+        notbold: Welcome and greet by tour guide at
+      - bold: '-'
+        notbold: Transfer to and check in hotel and free for leisure
+      - bold: Maedah Restaurant Bangkok
+        notbold: Dinner at
+      - bold: Asiatique The Riverfront
+        notbold: Enjoy your night at
+      - bold: 'Muay Thai Live : The Legend Lives 2 or Calypso Cabaret Show'
+        notbold: 'Optional Tour:'
+      - bold: '-'
+        notbold: Overnight in Bangkok
+    mealsincluded: Dinner
 poi:
   - desc: >-
       Asiatique has successfully combined two of the most popular shopping
