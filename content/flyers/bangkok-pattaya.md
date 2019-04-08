@@ -36,9 +36,9 @@ blocks:
       - Entrance ticket as per itinerary
     title: Inclusions
 itinerary:
-  - daynumber: '1'
+  - daynumber: 1
     daytitle: Arrival - Bangkok
-    item:
+    items:
       - bold: Suvarnabhumi International Airport
         notbold: Welcome and greet by tour guide at
       - bold: '-'
@@ -54,7 +54,7 @@ itinerary:
     mealsincluded: Dinner
   - daynumber: 2
     daytitle: Floating Market - Shopping Tour
-    item:
+    items:
       - bold: '-'
         notbold: Breakfast at hotel’s restaurant
       - bold: Damnoen Saduak Floating Market
@@ -80,7 +80,7 @@ itinerary:
     mealsincluded: 'Breakfast, Lunch, Dinner'
   - daynumber: 3
     daytitle: Bangkok - Pattaya
-    item:
+    items:
       - bold: '-'
         notbold: Breakfast at hotel’s restaurant
       - bold: '-'
@@ -104,7 +104,7 @@ itinerary:
     mealsincluded: 'Breakfast, Lunch, Dinner'
   - daynumber: 4
     daytitle: Departure
-    item:
+    items:
       - bold: '-'
         notbold: Breakfast at hotel’s restaurant
       - bold: '-'

@@ -45,10 +45,10 @@ collections:
         name: "itinerary"
         widget: "list"
         fields: 
-          - {label: Day Number, name: daynumber, widget: number, default: 1}
+          - {label: Day Number, name: daynumber, widget: number}
           - {label: Day Title, name: daytitle, widget: string, default: "Arrival - Brunei"}
           - {label: Meals, name: mealsincluded, widget: string, default: "Breakfast, Lunch and Dinner"}
-          - label: "Item"
+          - label: "Items"
             name: "items"
             widget: "list"
             fields: 
