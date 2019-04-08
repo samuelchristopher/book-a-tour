@@ -52,6 +52,32 @@ itinerary:
       - bold: '-'
         notbold: Overnight in Bangkok
     mealsincluded: Dinner
+  - daynumber: 2
+    daytitle: Floating Market - Shopping Tour
+    item:
+      - bold: '-'
+        notbold: Breakfast at hotel’s restaurant
+      - bold: Damnoen Saduak Floating Market
+        notbold: Visit
+      - bold: Railway Market
+        notbold: Visit
+      - bold: ' Ziniza Restaurant'
+        notbold: Lunch at
+      - bold: >-
+          Chatuchak Weekend Market (Saturday and Sunday Only)orJJ Mall or
+          Platinum 
+        notbold: Free shopping at
+      - bold: Fashion Mall or Terminal 21 or Train Market
+        notbold: Visit
+      - bold: Sophia Restaurant
+        notbold: Dinner at
+      - bold: >-
+          Nanta Show Bangkok Theatre, Siam Niramat Bangkok Show or Chao Phraya
+          Cruise
+        notbold: 'Optional Tour:'
+      - bold: '-'
+        notbold: Overnight in Bangkok
+    mealsincluded: 'Breakfast, Lunch, Dinner'
 poi:
   - desc: >-
       Asiatique has successfully combined two of the most popular shopping
