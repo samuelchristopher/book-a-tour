@@ -12,7 +12,7 @@ const POI = ({ poi, poiObject, isSecond }) => {
     return  (
         <div className="page container">
             <Letterhead />
-            {isSecond ? <div className={styles.spaceTop} />: <h1 className={styles.pageHeader}>Places of Interest</h1>}
+            {isSecond ? <div className={styles.spaceTop} />: <h1 className="page-header">Places of Interest</h1>}
             <div className={styles.poiContainer}>
                 { poiItems }
             </div>

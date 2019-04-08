@@ -8,6 +8,7 @@ import FlyerHeader from "../components/flyerHeader"
 import FlyerQuickInfo from  "../components/flyerQuickInfo"
 import FlyerBlocks from "../components/flyerBlocks"
 import FlyerBottom from "../components/flyerBottom"
+import Itinerary from "../components/itinerary"
 
 import POI from "../components/poiRender"
 
@@ -30,6 +31,7 @@ export default function Template({
               <FlyerBlocks {...frontmatter}/>
               <FlyerBottom />
             </div>
+            <Itinerary {...frontmatter}/>
             <POI {...frontmatter}/>
         </div>
     )
@@ -61,6 +63,15 @@ export const pageQuery = graphql`
                  image
                  title
                }
+              itinerary {
+                daynumber
+                daytitle
+                mealsincluded
+                items {
+                  bold
+                  notbold
+                }
+              }
              }
            }
          }

@@ -1,0 +1,25 @@
+.day {
+    border-bottom: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+.day-heading {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.day-items-container {
+    border-left: 2px solid black;
+    margin: 10px 0 10px 45px;
+    font-size: .9em;
+}
+
+.day-item {
+    margin: 10px 0 0 10px;
+}
+
+.meals {
+    margin-top: 20px;
+    margin-left: 10px;
+}

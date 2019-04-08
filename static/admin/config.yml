@@ -41,6 +41,19 @@ collections:
             name: "blockitems"
             widget: "list"
             default: ["item 1", "item 2"]
+      - label: "Itinerary"
+        name: "itinerary"
+        widget: "list"
+        fields: 
+          - {label: Day Number, name: daynumber, widget: number, default: 1}
+          - {label: Day Title, name: daytitle, widget: string, default: "Arrival - Brunei"}
+          - {label: Meals, name: mealsincluded, widget: string, default: "Breakfast, Lunch and Dinner"}
+          - label: "Item"
+            name: "items"
+            widget: "list"
+            fields: 
+              - {label: Not Bold, name: notbold, widget: string, default: "Visit"}
+              - {label: Bold, name: bold, widget: string, default: "Bandar Seri Begawan"}
       - label: "Places of Interest" 
         name: "poi"
         widget: "list"
@@ -48,5 +61,6 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: desc, widget: string}
           - {label: Image, name: image, widget: image}
+      
 
 

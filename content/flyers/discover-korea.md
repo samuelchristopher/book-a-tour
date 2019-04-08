@@ -26,9 +26,9 @@ blocks:
       - item 2
     title: Block title
 itinerary:
-  - daynumber: '1'
+  - daynumber: 1
     daytitle: Arrival - South Korea
-    item:
+    items:
       - bold: Seoul
         notbold: Visit
       - bold: Sung-ha Jung
@@ -38,7 +38,7 @@ itinerary:
     mealsincluded: 'Breakfast, Lunch and Dinner'
   - daynumber: 2
     daytitle: North Korea - Auditorium
-    item:
+    items:
       - bold: Army
         notbold: Visit
       - bold: Korean National Park

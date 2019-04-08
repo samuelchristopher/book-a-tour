@@ -7,8 +7,18 @@
     min-height: 297mm;
 }
 
+.page-header {
+    color: #364893;
+    margin: 20px 40px;
+}
 
+.page-title {
+  color: #364893;  
+}
 
+.page-content-container {
+  margin: 20px 40px;
+}
 
 @page {
     size: A4;
