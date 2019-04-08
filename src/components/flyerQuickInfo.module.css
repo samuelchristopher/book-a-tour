@@ -21,4 +21,5 @@
     align-items: center;
     font-weight: bold;
     flex-direction: column;
+    text-align: center;
 }
