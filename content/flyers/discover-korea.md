@@ -92,6 +92,16 @@ itinerary:
       - bold: '-'
         notbold: Overnight in Pattaya
     mealsincluded: 'Breakfast, Lunch, Dinner'
+  - daynumber: 4
+    daytitle: Departure
+    item:
+      - bold: '-'
+        notbold: Breakfast at hotel’s restaurant
+      - bold: '-'
+        notbold: Check out from Hotel
+      - bold: Suvarnabhumi International Airport
+        notbold: 'Transfer to '
+    mealsincluded: Breakfast
 poi:
   - desc: >-
       Korea is a region in East Asia. Since 1948, it has been divided between
