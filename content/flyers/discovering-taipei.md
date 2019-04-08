@@ -2,11 +2,11 @@
 title: discovering taipei
 titledays: 5D/4N
 path: /flyer/discovering-taipei
-price: 49
+price: 1
 pricedesc:
   - per person
   - min 2 to go
-headerimg: /uploads/proboscis.jpg
+headerimg: /uploads/5b95f8db9934f.jpg
 headertitle: discovering taipei
 headerdesc: >-
   Taipei, the capital of Taiwan, is a modern metropolis with Japanese colonial
@@ -32,7 +32,7 @@ poi:
       Part of the Daliao Miaocene Formation, the cape stretches around 1,700
       meters, formed as thousands of years of geological movement forced the
       Datun Mountains to change their shape, jutting out into the ocean. 
-    image: /uploads/jame-asr_.jpg
+    image: /uploads/yehliugeoparkadmissionticket.jpg
     title: Yehliu Geopark
   - desc: >-
       A bustling hub for those eager to get a glimpse of an old railroad town
@@ -41,7 +41,7 @@ poi:
       the Pingxi rail-line. It is easy to see why so many are drawn here - local
       food, souvenir shops and puffing trains add to the charm of this little
       gem, as well as make it a fantastic place for photography. 
-    image: /uploads/proboscis.jpg
+    image: /uploads/taiwan-shifen-19_zpsiphqlxju.jpg
     title: 'Shifen Old Street '
   - desc: >-
       A 40 metre tall waterfall that creates a rainbow as it splashes into the
@@ -55,17 +55,17 @@ poi:
       Taiwanese culture. Today, the town is recognized for its narrow,
       photogenic streets lit by strings of lanterns, quaint historical
       architecture, and its combo ocean and mountain views. 
-    image: /uploads/proboscis.jpg
+    image: /uploads/21803864658_224f7a2c82_b.jpg
     title: 'Jiufen Old Street '
   - desc: ' Located in Nantou County in Central Taiwan. It’s the largest body of water in the country with a surface area of about 7.93 sq km. Designated as one of thirteen national scenic areas in Taiwan, this picturesque lake gets its name from its shape. The eastern side of Sun Moon Lake is said to resemble the sun, while the western side resembles the moon. '
-    image: /uploads/jame-asr_.jpg
+    image: /uploads/sun-moon-lake-taiwan.jpg
     title: 'Sun Moon Lake '
   - desc: >-
       Originally named Dehua Village, the Thao village of Yidashao is a unique
       locality comprised of its tribal atmosphere, mountain scenery and lake
       scenery. The shops along the streets are also packed with eye-catching
       snacks and souvenirs. 
-    image: /uploads/pawel-czerwinski-1440120-unsplash.jpg
+    image: /uploads/25625034788_0b75df0e4d_b.jpg
     title: Yidashou Village
   - desc: >-
       Taipei, the capital of Taiwan, is a modern metropolis with Japanese
@@ -75,7 +75,7 @@ poi:
       the top. Taipei is also known for its lively street-food scene and many
       night markets, including expansive Shilin market.
     image: /uploads/vanessa-bucceri-1381292-unsplash.jpg
-    title: place seven
+    title: Taiyi leisure farm
   - desc: >-
       Make your way to Chun Shui Tang Tea House in Taichung for a DIY bubble tea
       experience. Chun Shui Tang is known as the ‘inventor of bubble tea’. Enter
@@ -83,7 +83,7 @@ poi:
       bubble tea with pearls. Make two styles of bubble tea - milk bubble tea
       and black tea. Taste your way through Taiwan, starting with this DIY
       bubble tea experience
-    image: /uploads/sergio-souza-1386770-unsplash.jpg
+    image: /uploads/5eb527f993bc3b290a698b6e429e1edf.jpg
     title: Chun Shui Tang
   - desc: >-
       Located in one of the largest port in Taiwan and this is where you can
@@ -91,14 +91,14 @@ poi:
       where you can take to reach the opposite bank of the port, the Bali Left
       bank. As you stroll along Tamsui street, you will come across food stalls
       that sell seafood snacks like fried squid, shell fish, scallop and more. 
-    image: /uploads/vanessa-bucceri-1381292-unsplash.jpg
+    image: /uploads/entrance-of-tamsui-old.jpg
     title: TamSui Old Street
   - desc: >-
       The former residence of Chiang Kai-shek and his wife Soong Mei-ling, the
       Shilin Official Residence is a designated historical site open to the
       public as a museum celebrating their accomplishments as well as their
       contributions to the growth of Taiwan in the modern era. 
-    image: /uploads/pawel-czerwinski-1440120-unsplash.jpg
+    image: /uploads/shilin_official_residence1.jpg
     title: 'Shilin Official Residence '
   - desc: >-
       The Shilin Night Market in Taipei is one of the largest, most popular
@@ -106,7 +106,7 @@ poi:
       popular points of Taipei's night life among visitors. The maze of
       alleyways is filled with a variety of local, traditional, and
       international merchandise that attract locals and foreigners alike
-    image: /uploads/vanessa-bucceri-1381292-unsplash.jpg
+    image: /uploads/pic_154_14.jpg
     title: 'Shilin Night Market '
   - desc: >-
       Features a wide selection of fashionable clothing and accessories in many
@@ -115,7 +115,7 @@ poi:
       activities that allure large numbers of young people and young adults. It
       is often a gathering site for young people and has been noted the most
       fashionable and popular shopping area in Taiwan 
-    image: /uploads/jame-asr_.jpg
+    image: /uploads/ximending.jpg
     title: 'Ximending '
 ---
 
