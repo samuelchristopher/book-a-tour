@@ -43,6 +43,8 @@ itinerary:
         notbold: Visit
       - bold: Korean National Park
         notbold: Go to
+      - bold: '-'
+        notbold: Meet Sam here
     mealsincluded: None
 poi:
   - desc: >-
