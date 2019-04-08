@@ -68,6 +68,30 @@ itinerary:
       - bold: '-'
         notbold: Overnight in Bangkok
     mealsincluded: 'Breakfast, Lunch, Dinner'
+  - daynumber: 3
+    daytitle: Bangkok - Pattaya
+    item:
+      - bold: '-'
+        notbold: Breakfast at hotel’s restaurant
+      - bold: '-'
+        notbold: Check out from Hotel
+      - bold: Pattaya
+        notbold: (2 hour journey) Transfer to
+      - bold: Nong Nooch Tropical Botanical Garden
+        notbold: Visit
+      - bold: Amir Halal Food Restaurant
+        notbold: Lunch at
+      - bold: Pattaya Floating Market
+        notbold: Visit
+      - bold: Hard Rock Cafe Souvenir
+        notbold: Visit
+      - bold: Harbor Restaurant
+        notbold: Dinner at
+      - bold: Alcazar Cabaret Show or Kaan Show
+        notbold: 'Optional Tour:'
+      - bold: '-'
+        notbold: Overnight in Pattaya
+    mealsincluded: 'Breakfast, Lunch, Dinner'
 poi:
   - desc: >-
       Korea is a region in East Asia. Since 1948, it has been divided between
