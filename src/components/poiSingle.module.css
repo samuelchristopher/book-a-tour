@@ -6,6 +6,7 @@
 .poi-single-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -14,15 +15,16 @@
 }
 
 .poi-image {
-    width: 600px;
-    height: 110px;
+    width: 1.75in;
+    height: 1.3in;
     background-size: cover;
     background-position: center center;
 }
 
 .poi-content {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-left: 20px;
+    max-width: 68%;
 }
 
 .poi-container {
