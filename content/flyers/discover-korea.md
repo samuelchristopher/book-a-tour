@@ -26,19 +26,25 @@ blocks:
       - item 2
     title: Block title
 itinerary:
-  - daynumber: 1
-    daytitle: Arrival - South Korea
-    items:
-      - bold: Seoul
-        notbold: Visit
-      - bold: Sung-ha Jung
-        notbold: Meet
-      - bold: Mateus Asato
-        notbold: 'Watch '
-    mealsincluded: 'Breakfast, Lunch and Dinner'
+  - daynumber: '1'
+    daytitle: Arrival - Bangkok
+    item:
+      - bold: Suvarnabhumi International Airport
+        notbold: Welcome and greet by tour guide at
+      - bold: '-'
+        notbold: Transfer to and check in hotel and free for leisure
+      - bold: ' Maedah Restaurant Bangkok'
+        notbold: Dinner at
+      - bold: Asiatique The Riverfront
+        notbold: Enjoy your night at
+      - bold: 'Muay Thai Live: The Legend Lives 2 or Calypso Cabaret Show'
+        notbold: 'Optional Tour:'
+      - bold: '-'
+        notbold: Overnight in Bangkok
+    mealsincluded: Dinner
   - daynumber: 2
     daytitle: North Korea - Auditorium
-    items:
+    item:
       - bold: Army
         notbold: Visit
       - bold: Korean National Park
