@@ -102,6 +102,16 @@ itinerary:
       - bold: '-'
         notbold: Overnight in Pattaya
     mealsincluded: 'Breakfast, Lunch, Dinner'
+  - daynumber: 4
+    daytitle: Departure
+    item:
+      - bold: '-'
+        notbold: Breakfast at hotel’s restaurant
+      - bold: '-'
+        notbold: Check out from Hotel
+      - bold: Suvarnabhumi International Airport
+        notbold: Transfer to
+    mealsincluded: Breakfast
 poi:
   - desc: >-
       Asiatique has successfully combined two of the most popular shopping
