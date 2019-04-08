@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 // flyer components
 import FlyerTop from "../components/flyerTop"
@@ -18,6 +19,10 @@ export default function Template({
     
     return (
         <div>
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>{ frontmatter.title } | Grace Travel</title>
+            </Helmet>
             <div className="page">
               <FlyerTop {...frontmatter}/>
               <FlyerHeader {...frontmatter}/>
