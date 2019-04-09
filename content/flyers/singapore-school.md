@@ -19,11 +19,18 @@ tourcode: GTASG1029
 quickinfo:
   - icon: /uploads/round-flag-24px.svg
     text: tour guide included
+  - icon: /uploads/round-hotel-24px.svg
+    text: accommodation included
+  - icon: /uploads/round-directions_bus-24px.svg
+    text: round trip transfers included
 blocks:
   - blockitems:
-      - item 1
-      - item 2
-    title: Block title
+      - All transfers
+      - National Park Entrance Fee
+      - Light Refreshment
+      - 1 Breakfast 1 Lunch and 1 Dinner
+      - English Speaking Guide
+    title: Inclusions
 itinerary:
   - daynumber: 1
     daytitle: Arrival - Brunei
