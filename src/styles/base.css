@@ -20,6 +20,12 @@
   margin: 20px 40px;
 }
 
+p {
+    margin: .5em;
+    font-size: 11px;
+}
+
+
 @page {
     size: A4;
     margin: 0;

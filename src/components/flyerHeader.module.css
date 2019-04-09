@@ -9,8 +9,8 @@
 }
 
 .header__img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     border: 5px solid white;
     background-position: center center;
@@ -25,11 +25,12 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .header__desc {
-    font-size: 15px;
+    font-size: 13px;
     color: black;
     text-align: justify;
+    line-height: 15px;
 }
