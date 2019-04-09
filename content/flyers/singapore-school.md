@@ -42,6 +42,16 @@ blocks:
       - Comfortable shoes (waterproof shoes/flipflops)
       - Sunblocks and insect-repellent
     title: requirements for the overnight trip
+  - blockitems:
+      - Deposits of 50% are non-refundable upon confirmation
+      - No refund allowed once journey has commenced
+      - Prices are subject to change without prior notice
+      - Bookings should be done at least 7 days in advance before date of tour
+      - >-
+        Itinerary may be subject to change depending on weather and local
+        traffic condition
+      - Valid until 31st December 2019
+    title: terms & conditions
 itinerary:
   - daynumber: 1
     daytitle: Arrival - Brunei
