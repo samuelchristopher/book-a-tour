@@ -33,6 +33,12 @@ itinerary:
       - bold: '-'
         notbold: Singapore boleh lah
     mealsincluded: 'Breakfast, Lunch and Dinner'
+  - daynumber: 2
+    daytitle: Singapore
+    items:
+      - bold: New Creation Church
+        notbold: '-'
+    mealsincluded: Dinner
 poi:
   - desc: >-
       The Merlion is the official mascot of Singapore, depicted as a mythical
