@@ -34,6 +34,14 @@ blocks:
   - blockitems:
       - Traveling insurance
     title: exclusions
+  - blockitems:
+      - Spare clothes and towels for 2 days (long sleeved and long pants)
+      - Water resistant bag
+      - Water bottles
+      - Toiletries
+      - Comfortable shoes (waterproof shoes/flipflops)
+      - Sunblocks and insect-repellent
+    title: requirements for the overnight trip
 itinerary:
   - daynumber: 1
     daytitle: Arrival - Brunei
