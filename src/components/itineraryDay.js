@@ -9,7 +9,7 @@ const Day = ({ day }) => {
         return (
             <div className={styles.dayItem}>
                 
-                { item.notbold } 
+                {item.notbold === "-" ? '' : item.notbold }
                 {item.bold === "-" ? '' : <b> {item.bold}</b> }
             </div>
         )
