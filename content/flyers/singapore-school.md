@@ -31,6 +31,9 @@ blocks:
       - 1 Breakfast 1 Lunch and 1 Dinner
       - English Speaking Guide
     title: Inclusions
+  - blockitems:
+      - Traveling insurance
+    title: exclusions
 itinerary:
   - daynumber: 1
     daytitle: Arrival - Brunei
