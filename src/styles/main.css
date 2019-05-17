@@ -3,7 +3,7 @@ html {
 }
 
 .mobile-container {
-  max-width: 300px;
+  max-width: 70vw;
   margin: 20px auto;
 }
 
@@ -12,7 +12,7 @@ header {
 }
 
 h1 {
-  color: #2A4F9F;
+  color: #156c88;
   margin-top: 0;
 }
 
@@ -135,4 +135,18 @@ button[disabled] {
   text-transform: uppercase;
   color: #FBB514;
   font-size: .8em;
+}
+
+.tour-cards-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .tour-cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
