@@ -11,7 +11,7 @@ const TourCard = ({ title, link, img }) => {
                 <Link className={styles.tourCard__learnMoreButton} to={link}>learn more</Link>
             </div>
             <div className={styles.tourCard__bgBlur}></div>
-            <img className={styles.tourCard__bgImage} src={img} />
+            <img alt="" className={styles.tourCard__bgImage} src={img} />
         </div>
     )
 }

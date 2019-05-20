@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet"
 
 export default function Template({ data }) {
     const { markdownRemark } = data
-    const { frontmatter, html } = markdownRemark
+    const { frontmatter } = markdownRemark
     
     const { title, starts, ends, destinations, highlights, minage, mingroup, travelstyle, itinerary_url: itineraryUrl, itinerary: itineraryList, imgone, included, not_included: notIncluded, price, imgtwo, imgthree, path } = frontmatter
     return (

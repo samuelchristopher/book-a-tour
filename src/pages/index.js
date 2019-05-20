@@ -26,8 +26,8 @@ class Index extends React.Component {
   }
 
   render() {
-    let { adults, children, days } = this.state
-    const isDisabled = !adults || !children || !days
+    // let { adults, children, days } = this.state
+    // const isDisabled = !adults || !children || !days
     return (
       <Layout>
         <Helmet>

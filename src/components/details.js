@@ -12,7 +12,7 @@ class Details extends React.Component {
                     <h1 className="capitalize__heading">{title}</h1>
                     <p className={`${styles.detailsTagline} shifted-to-the-right tagline`}>3 Adults, 2 Children, 1 Day</p>
                 </header>
-                <img className={styles.details__bigImage} src={imgone} />
+                <img alt="" className={styles.details__bigImage} src={imgone} />
                 {/* <div className={styles.details__dotsContainer}>
                 <div className={styles.dots__titles}>
                     <div className="yellow-caps">starts</div>
@@ -48,7 +48,7 @@ class Details extends React.Component {
                     </div>
                 </div>
                 {/* <img className={styles.highlights__image} src={imgtwo} /> */}
-                <img className={styles.details__bigImage} src={imgtwo} />
+                <img alt="" className={styles.details__bigImage} src={imgtwo} />
                 <div className={styles.details__itineraryContainer}>
                     {/* <img className={styles.itinerary__image} src={imgthree} /> */}
                     <div className={styles.itinerary__headingContainer}>

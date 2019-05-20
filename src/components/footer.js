@@ -23,7 +23,7 @@ const Footer = () => (
     </div>
     <div className={styles.footer__generalLinks}>
       <a href="http://www.gracebrunei.com/aboutus/">About</a>
-      <a href="#">Contact Us</a>
+      <a href="https://home.gracebrunei.com/contact">Contact Us</a>
       <a href="http://www.gracebrunei.com/tours/">Tours</a>
     </div>
     <p className={styles.footer__copyright}>
