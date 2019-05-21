@@ -129,7 +129,7 @@ class Booking extends React.Component {
                     <button onClick={this.confirmBooking}>confirm booking {">"}</button>
             </div> */}
             <div hidden={!this.state.makeBooking}>
-                <form action="/thank-you" name="booking" method="POST" data-netlify="true" style={{ display: 'flex', flexDirection: 'column' }} >
+                <form name="contact" method="POST" data-netlify="true" style={{ display: 'flex', flexDirection: 'column' }} >
                     <input
                         type="text"
                         name="customerName"
