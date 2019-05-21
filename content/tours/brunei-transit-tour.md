@@ -53,7 +53,7 @@ included:
     title: Tour Coordinator
   - desc: Tours are based on sit-in-coach
     title: Transportation
-  - desc: Mineral Water/Light refreshments will be provided
+  - desc: Mineral water and light refreshments will be provided
     title: 'Refreshments '
 not_included: []
 price: '49'
