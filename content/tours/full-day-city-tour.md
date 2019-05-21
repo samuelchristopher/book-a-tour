@@ -13,7 +13,7 @@ highlights: >-
   into life on the largest water village in the world. In-between all the
   excitement you will get the chance to eat like the locals in a specially
   chosen restaurant.
-imgtwo: /uploads/full-day-mosque.jpg
+imgtwo: /uploads/monkey-full-day.jpg
 minage: 2
 mingroup: 2
 travelstyle: Cultural Discovery
