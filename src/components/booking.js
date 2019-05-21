@@ -1,8 +1,8 @@
 import React from "react"
 import * as emailjs from "emailjs-com"
 import { navigate } from "gatsby"
-import * as firebase from "firebase"
-import "firebase/database"
+// import * as firebase from "firebase"
+// import "firebase/database"
 
 
 class Booking extends React.Component {
@@ -24,15 +24,15 @@ class Booking extends React.Component {
 
     componentDidMount() {
         emailjs.init('user_muzMftAPWJbly7Twei3ht')
-        let config = {
-            apiKey: "AIzaSyB1x4Xulggn_lzxi1JEveDF7jjohoU_wFs",
-            authDomain: "gtabook.firebaseapp.com",
-            databaseURL: "https://gtabook.firebaseio.com",
-            projectId: "gtabook",
-            storageBucket: "gtabook.appspot.com",
-            messagingSenderId: "242321135368"
-        }
-        firebase.initializeApp(config)
+        // let config = {
+        //     apiKey: "AIzaSyB1x4Xulggn_lzxi1JEveDF7jjohoU_wFs",
+        //     authDomain: "gtabook.firebaseapp.com",
+        //     databaseURL: "https://gtabook.firebaseio.com",
+        //     projectId: "gtabook",
+        //     storageBucket: "gtabook.appspot.com",
+        //     messagingSenderId: "242321135368"
+        // }
+        // firebase.initializeApp(config)
     }
 
     toggleMakeBooking() {
@@ -76,10 +76,10 @@ class Booking extends React.Component {
             customerTelephone,
             tourDate,
         }
-        let date = new Date()
-
-        let dateRef = firebase.database().ref(`/bookings/${date.toDateString()}`)
-        dateRef.push(newBooking)
+        // let date = new Date()
+        console.log(newBooking)
+        // let dateRef = firebase.database().ref(`/bookings/${date.toDateString()}`)
+        // dateRef.push(newBooking)
     }
 
     confirmBooking() {
