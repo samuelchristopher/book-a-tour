@@ -11,7 +11,7 @@ highlights: >-
   uniquely preserved wilderness. The river camp is next to temburong river
   within the National Park that is suitable for those who love wilderness and
   wildlife.
-imgtwo: /uploads/waterfall-temburong-adventure.jpg
+imgtwo: /uploads/temburong-eco-village.jpg
 minage: 2
 mingroup: 2
 travelstyle: Cultural Discovery
