@@ -100,7 +100,7 @@ class Booking extends React.Component {
             <button onClick={this.toggleMakeBooking}>
                 {this.state.makeBooking ? "cancel" : "make a booking"}
             </button>
-            <div hidden={!this.state.makeBooking}>
+            {/* <div hidden={!this.state.makeBooking}>
                 <div style={{ display: 'flex', flexDirection: 'column' }} >
                     <input
                         type="text"
@@ -127,7 +127,35 @@ class Booking extends React.Component {
                         onChange={this.handleInputChange}
                     />
                     <button onClick={this.confirmBooking}>confirm booking {">"}</button>
-            </div>
+            </div> */}
+            <div hidden={!this.state.makeBooking}>
+                <form action="/thank-you" name="booking" method="POST" data-netlify="true" style={{ display: 'flex', flexDirection: 'column' }} >
+                    <input
+                        type="text"
+                        name="customerName"
+                        placeholder="What is your name?"
+                        onChange={this.handleInputChange}
+                    />
+                    <input
+                        type="email"
+                        name="customerEmail"
+                        placeholder="What is your email?"
+                        onChange={this.handleInputChange}
+                    />
+                    <input
+                        type="tel"
+                        name="customerTelephone"
+                        placeholder="What is your phone number?"
+                        onChange={this.handleInputChange}
+                    />
+                    <input
+                        type="date"
+                        name="tourDate"
+                        placeholder="Preferred tour date"
+                        onChange={this.handleInputChange}
+                    />
+                    <button type="submit">confirm booking {">"}</button>
+                </form>
             
             </div>
           </div>
