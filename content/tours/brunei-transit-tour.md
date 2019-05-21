@@ -1,20 +1,20 @@
 ---
 title: Brunei Transit Tour
 path: /tour/brunei-transit-tour
-imgone: /uploads/jame-asr_.jpg
+imgone: /uploads/mosque-jame.jpg
 starts: Brunei International Airport
-destinations: 4
+destinations: 5
 ends: Brunei International Airport
 highlights: >-
   See the main highlights of Brunei's capital city, Bandar Seri Begawan, on this
   transit tour. From the city's iconic buildings to its beautiful mosques and
   the mosques the majestic Sultan's Palace, get a comprehensive overview of the
   area's best in a short period of time.
-imgtwo: /uploads/sergio-souza-1386770-unsplash.jpg
+imgtwo: /uploads/masjid-soas.jpg
 minage: 2
 mingroup: 1
 travelstyle: Cultural Discovery
-imgthree: /uploads/sergio-souza-1386770-unsplash.jpg
+imgthree: /uploads/masjid-soas.jpg
 itinerary-url: 'http://www.gracebrunei.com/tours'
 itinerary:
   - desc: >-
@@ -43,6 +43,11 @@ itinerary:
       volume in itself is Amazing, not to mention the myriad woven rugs
       scattered across the men’s prayer hall.
     title: 'Jame’Asr Mosque '
+  - desc: >-
+      Sweet Nonya Delights Cafe Kitchen creates variety of assorted kueh,
+      comprising of authentic traditional handmade nonya kueh, local Brunei
+      delicacies such as Putri Mandi and Pengalaban to cater to local requests.
+    title: Sweet Nonya Delights Cafe
 included:
   - desc: English/Chinese speaking guide
     title: Tour Coordinator
