@@ -1,16 +1,16 @@
 ---
-title: Temburong Adventure (Day Trip)
+title: 'Temburong Adventure '
 path: /tour/temburong-adventure
 imgone: /uploads/waterfall-temburong-adventure.jpg
 starts: Hotel or Jetty Terminal
 destinations: 5
 ends: Bandar Seri Begawan
 highlights: >-
-  Ulu Temburong National Park is a well preserved rainforest for scientific
-  research, wildlife and visitors. truly gives you time to experience and enjoy
-  uniquely preserved wilderness. The river camp is next to temburong river
-  within the National Park that is suitable for those who love wilderness and
-  wildlife.
+  Temburong Adventure (Day Trip). Ulu Temburong National Park is a well
+  preserved rainforest for scientific research, wildlife and visitors. truly
+  gives you time to experience and enjoy uniquely preserved wilderness. The
+  river camp is next to temburong river within the National Park that is
+  suitable for those who love wilderness and wildlife.
 imgtwo: /uploads/temburong-eco-village.jpg
 minage: 2
 mingroup: 2
