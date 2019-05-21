@@ -1,5 +1,5 @@
 ---
-title: Temburong Eco-Village
+title: 'Temburong Eco-Village (2 Days, 1 Night)'
 path: /tour/temburong-eco-village
 imgone: /uploads/temburong-eco-village.jpg
 starts: Hotel
