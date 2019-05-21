@@ -100,7 +100,7 @@ class Booking extends React.Component {
             <button onClick={this.toggleMakeBooking}>
                 {this.state.makeBooking ? "cancel" : "make a booking"}
             </button>
-            {/* <div hidden={!this.state.makeBooking}>
+            <div hidden={!this.state.makeBooking}>
                 <div style={{ display: 'flex', flexDirection: 'column' }} >
                     <input
                         type="text"
@@ -127,8 +127,8 @@ class Booking extends React.Component {
                         onChange={this.handleInputChange}
                     />
                     <button onClick={this.confirmBooking}>confirm booking {">"}</button>
-            </div> */}
-            <div hidden={!this.state.makeBooking}>
+                </div>
+            {/* <div hidden={!this.state.makeBooking}>
                 <form name="contact" method="POST" data-netlify="true" style={{ display: 'flex', flexDirection: 'column' }} >
                     <input
                         type="text"
@@ -157,7 +157,7 @@ class Booking extends React.Component {
                     <button type="submit">confirm booking {">"}</button>
                 </form>
             
-            </div>
+            </div> */}
           </div>
         )
     }
