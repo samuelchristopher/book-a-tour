@@ -55,7 +55,9 @@ included:
     title: Transportation
   - desc: Mineral water and light refreshments will be provided
     title: 'Refreshments '
-not_included: []
+not_included:
+  - desc: No photographs allowed to be taken in the mosque
+    title: Photographs
 price: '49'
 ---
 
