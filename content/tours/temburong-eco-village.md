@@ -1,16 +1,16 @@
 ---
-title: 'Temburong Eco-Village (2 Days, 1 Night)'
+title: Temburong Eco-Village
 path: /tour/temburong-eco-village
 imgone: /uploads/temburong-eco-village.jpg
 starts: Hotel
 destinations: 6
 ends: Bandar Seri Begawan
 highlights: >-
-  Ulu Temburong National Park is a well preserved rainforest for scientific
-  research, wildlife and visitors. 2 days and 1 night tour truly gives you time
-  to experience and enjoy uniquely preserved wilderness. The river camp is next
-  to Temburong river within the National Park that is suitable for those who
-  love wilderness and wildlife.
+  Temburong Eco-Village (2 Days, 1 Night). Ulu Temburong National Park is a well
+  preserved rainforest for scientific research, wildlife and visitors. 2 days
+  and 1 night tour truly gives you time to experience and enjoy uniquely
+  preserved wilderness. The river camp is next to Temburong river within the
+  National Park that is suitable for those who love wilderness and wildlife.
 imgtwo: /uploads/temburong-eco-village.jpg
 minage: 2
 mingroup: 2
