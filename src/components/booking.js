@@ -159,6 +159,7 @@ class Booking extends React.Component {
             
             </div> */}
           </div>
+        </div>
         )
     }
 }
