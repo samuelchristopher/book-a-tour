@@ -10,9 +10,20 @@ class Details extends React.Component {
             <div>
                 <header>
                     <h1 className="capitalize__heading">{title}</h1>
-                    <p className={`${styles.detailsTagline} shifted-to-the-right tagline`}>3 Adults, 2 Children, 1 Day</p>
+                    {/* <p className={`${styles.detailsTagline} shifted-to-the-right tagline`}>3 Adults, 2 Children, 1 Day</p> */}
                 </header>
-                <img alt="" className={styles.details__bigImage} src={imgone} />
+                <div className={styles.img__container}>
+                    <div className={styles.blur} 
+                        style={{
+                            backgroundImage: `url(${imgone})`
+                        }}
+                    />
+                    <div className={styles.img} 
+                        style={{
+                            backgroundImage: `url(${imgone})`
+                        }}
+                    />
+                </div>
                 {/* <div className={styles.details__dotsContainer}>
                 <div className={styles.dots__titles}>
                     <div className="yellow-caps">starts</div>
@@ -48,14 +59,25 @@ class Details extends React.Component {
                     </div>
                 </div>
                 {/* <img className={styles.highlights__image} src={imgtwo} /> */}
-                <img alt="" className={styles.details__bigImage} src={imgtwo} />
+                <div className={styles.img__container}>
+                    <div className={styles.blur}
+                        style={{
+                            backgroundImage: `url(${imgtwo})`
+                        }}
+                    />
+                    <div className={styles.img}
+                        style={{
+                            backgroundImage: `url(${imgtwo})`
+                        }}
+                    />
+                </div>
                 <div className={styles.details__itineraryContainer}>
                     {/* <img className={styles.itinerary__image} src={imgthree} /> */}
                     <div className={styles.itinerary__headingContainer}>
                         <h3 className={`${styles.itinerary__heading} ${styles.details__heading}`}>Itinerary</h3>
-                        <div>
+                        {/* <div>
                             <a className={styles.itinerary__download} href={`${itineraryUrl}`} target="__blank">Download PDF Brochure</a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className={styles.itinerary__listContainer}>
                         <List listItems={itineraryList} />

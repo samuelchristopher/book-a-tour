@@ -7,8 +7,33 @@
   margin: 0 auto;
 }
 
+.img {
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center center;
+  margin-top: 25px;
+  background-repeat: no-repeat; 
+}
+
+.blur {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+.img__container {
+  position: relative;
+}
+
+
+
 .details__highlights-container {
-  margin-top: 290px;
+  margin-top: 50px;
 }
 
 .details-tagline {
@@ -158,7 +183,7 @@
 
 .details__itinerary-container {
   position: relative;
-  margin-top: 300px;
+  margin-top: 25px;
 }
 
 .itinerary__list-container {
