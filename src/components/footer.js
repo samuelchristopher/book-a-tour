@@ -1,36 +1,39 @@
 import React from "react"
-import styles from "./footer.module.css"
+import style from "./footer.module.css"
+import { Link } from "gatsby"
 
 const Footer = () => (
   <footer>
-    {/* <div className={styles.footer__logo} /> */}
-    <div className={styles.footer__partnersContainer}>
-      <p className={styles.footer__partnersHeading}>
-        grace travel partners
-      </p>
-      <div className={styles.footer__partnersLinksContainer}>
-        <div className={styles.partnersLinks__row}>
-          <a href="http://www.gracebrunei.com/clubmed/">Club Med</a>
-          <a href="http://www.gracebrunei.com/koreanair/">Korean Air</a>
-        </div>
-        <div className={styles.partnersLinks__row}>
-          <a href="http://www.gracebrunei.com/bangkokhospital/">
-            Bangkok Hospital
-          </a>
-          <a href="http://www.gracebrunei.com/bangkokairways/">Bangkok Air</a>
+    <div className={style.container}>
+      <div className={style.logo}></div>
+      <div className={style.links__container}>
+        <h3 className={style.links__header}>general</h3>
+        <div className={style.links}>
+          <a className={style.link} href="https://home.gracebrunei.com/about-us">about us</a>
+          <a className={style.link} href="http://www.gracebrunei.com/contact/">contact us</a>
+          <a className={style.link} href="http://www.gracebrunei.com/visitorinfo/">about brunei darussalam</a>
         </div>
       </div>
+      <div className={style.links__container}>
+        <h3 className={style.links__header}>exclusive partners</h3>
+        <div className={style.links}>
+          <a className={style.link} href="http://www.gracebrunei.com/bangkokairways/">bangkok airways</a>
+          <a className={style.link} href="http://www.gracebrunei.com/bangkokhospital/">bangkok hospital</a>
+          <a className={style.link} href="http://www.gracebrunei.com/bdmswellness/">BDMS wellness clinic</a>
+          <a className={style.link} href="http://www.gracebrunei.com/clubmed/">club med</a>
+          <a className={style.link} href="http://www.gracebrunei.com/koreanair/">korean air</a>
+        </div>
+      </div>
+      <div className={style.links__container}>
+        <h3 className={style.social__header}>Follow us for the latest upates:</h3>
+        <div className={style.icons__container}>
+          <a href="https://www.facebook.com/gracetravelbrunei/" className={style.icon__fb}></a>
+          <a href="http://www.instagram.com/gracebrunei/" className={style.icon__ig}></a>
+        </div>
+        <a href="#" className={style.blue_button}>Join our newsletter!</a>
+      </div>
     </div>
-    <div className={styles.footer__generalLinks}>
-      <a href="http://www.gracebrunei.com/aboutus/">About</a>
-      <a href="https://home.gracebrunei.com/contact">Contact Us</a>
-      <a href="http://www.gracebrunei.com/tours/">Tours</a>
-    </div>
-    <p className={styles.footer__copyright}>
-      Grace Travel Agnecy is not responsible for content on external Websites.{" "}
-      <br />
-      Copyright 2019 Grace Travel Agency. All rights reserved.
-    </p>
+    <div className={style.copy}>Copyright Grace Travel Agency. All rights reserved.</div>
   </footer>
 )
 
