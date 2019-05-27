@@ -45,9 +45,9 @@ class Nav extends Component {
                 <a className={`${style.mobile_nav_link} ${style.blue_button}`} href="http://www.gracebrunei.com/airfare-promo/">Promotions</a>
                 {/* <a className={style.mobile_nav_link} href="/contact">Tours</a> */}
                 {/* <a className={style.mobile_nav_link} href="#">Exclusive Partners</a> */}
-                <a className={style.mobile_nav_link} href="https://home.gracebrunei.com">Home</a>
+                <a className={style.mobile_nav_link} href="https://www.gracebrunei.com">Home</a>
                 <Link className={style.mobile_nav_link} to="/">Tours</Link>
-                <a className={style.mobile_nav_link} href="https://home.gracebrunei.com/about-us">About Us</a>
+                <a className={style.mobile_nav_link} href="https://www.gracebrunei.com/about-us">About Us</a>
                 <a className={style.mobile_nav_link} href="http://www.gracebrunei.com/contact/">Contact Us</a>
                 {/* <Link className={style.mobile_nav_link} href="/">English</Link> */}
                 {/* <a className={style.mobile_nav_link} href="#">Chinese</a> */}
@@ -59,9 +59,9 @@ class Nav extends Component {
             {/* <a className={style.desktop_nav_link} href="#">Tours</a> */}
             {/* <a className={style.desktop_nav_link} href="#">Exclusive Partners</a> */}
             <div className={style.flex_grow}></div>
-            <a className={style.desktop_nav_link} href="https://home.gracebrunei.com">Home</a>
+            <a className={style.desktop_nav_link} href="https://www.gracebrunei.com">Home</a>
             <Link className={style.desktop_nav_link} to="/">Tours</Link>
-            <a className={style.desktop_nav_link} href="https://home.gracebrunei.com/about-us">About Us</a>
+            <a className={style.desktop_nav_link} href="https://www.gracebrunei.com/about-us">About Us</a>
             <a className={style.desktop_nav_link} href="http://www.gracebrunei.com/contact/">Contact Us</a>
             {/* <Link className={style.desktop_nav_link} href="/">English</Link> */}
             {/* <a className={style.desktop_nav_link} href="#">Chinese</a> */}

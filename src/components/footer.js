@@ -1,6 +1,5 @@
 import React from "react"
 import style from "./footer.module.css"
-import { Link } from "gatsby"
 
 const Footer = () => (
   <footer>
@@ -9,7 +8,7 @@ const Footer = () => (
       <div className={style.links__container}>
         <h3 className={style.links__header}>general</h3>
         <div className={style.links}>
-          <a className={style.link} href="https://home.gracebrunei.com/about-us">about us</a>
+          <a className={style.link} href="https://www.gracebrunei.com/about-us">about us</a>
           <a className={style.link} href="http://www.gracebrunei.com/contact/">contact us</a>
           <a className={style.link} href="http://www.gracebrunei.com/visitorinfo/">about brunei darussalam</a>
         </div>

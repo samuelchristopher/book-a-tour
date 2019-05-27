@@ -27,7 +27,7 @@ const allToursRender = ({ data }) => {
     return (
         <div>
             <header>
-                <h1 className="capitalize__heading">All tours</h1>
+                <h1 className="capitalize__heading">Brunei tours</h1>
                 <p className="shifted-to-the-right tagline">Find the package that is perfect for you</p>
             </header>
             <div className="tour-cards-container">
