@@ -49,6 +49,7 @@ class Nav extends Component {
                 <Link className={style.mobile_nav_link} to="/">Tours</Link>
                 <a className={style.mobile_nav_link} href="https://www.gracebrunei.com/about-us">About Us</a>
                 <a className={style.mobile_nav_link} href="http://www.gracebrunei.com/contact/">Contact Us</a>
+                <a className={style.mobile_nav_link} href="http://cn.gracebrunei.com">中文</a>
                 {/* <Link className={style.mobile_nav_link} href="/">English</Link> */}
                 {/* <a className={style.mobile_nav_link} href="#">Chinese</a> */}
               </div>
@@ -63,6 +64,7 @@ class Nav extends Component {
             <Link className={style.desktop_nav_link} to="/">Tours</Link>
             <a className={style.desktop_nav_link} href="https://www.gracebrunei.com/about-us">About Us</a>
             <a className={style.desktop_nav_link} href="http://www.gracebrunei.com/contact/">Contact Us</a>
+            <a className={style.desktop_nav_link} href="http://cn.gracebrunei.com">中文</a>
             {/* <Link className={style.desktop_nav_link} href="/">English</Link> */}
             {/* <a className={style.desktop_nav_link} href="#">Chinese</a> */}
           </div>
