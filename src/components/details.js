@@ -5,7 +5,7 @@ import Booking from "./booking"
 
 class Details extends React.Component {
     render() {
-        let { title, highlights, minage, mingroup, travelstyle, itineraryUrl, itineraryList, imgone, included, notIncluded, price, imgtwo, path } = this.props
+        let { title, highlights, minage, mingroup, travelstyle, itineraryList, imgone, included, notIncluded, price, imgtwo, path } = this.props
         return (
             <div>
                 <header>
