@@ -95,6 +95,9 @@ class Booking extends React.Component {
     }
 
     render() {
+        let { customerName, customerEmail, customerTelephone, tourDate } = this.state
+        let isDisabled = true
+        customerName && customerEmail && customerTelephone && tourDate ? isDisabled = false : isDisabled = true
         return (
           <div style={{display: 'flex', flexDirection: 'column'}}>
             <button onClick={this.toggleMakeBooking}>
@@ -107,26 +110,30 @@ class Booking extends React.Component {
                         name="customerName"
                         placeholder="What is your name?"
                         onChange={this.handleInputChange}
+                        required
                     />
                     <input
                         type="email"
                         name="customerEmail"
                         placeholder="What is your email?"
                         onChange={this.handleInputChange}
+                        required
                     />
                     <input
                         type="tel"
                         name="customerTelephone"
                         placeholder="What is your phone number?"
                         onChange={this.handleInputChange}
+                        required
                     />
                     <input
                         type="date"
                         name="tourDate"
                         placeholder="Preferred tour date"
                         onChange={this.handleInputChange}
+                        required
                     />
-                    <button onClick={this.confirmBooking}>confirm booking {">"}</button>
+                    <button disabled={isDisabled} onClick={this.confirmBooking}>confirm booking {">"}</button>
                 </div>
             {/* <div hidden={!this.state.makeBooking}>
                 <form name="contact" method="POST" data-netlify="true" style={{ display: 'flex', flexDirection: 'column' }} >
